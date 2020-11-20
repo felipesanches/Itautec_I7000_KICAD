@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 8202A
+D Intel 8202A Dynamic RAM Controller
+K DRAM
+$ENDCMP
+#
+$CMP NSC800
+D NSC800 - High-Performance Low-Power CMOS Microprocessor
+$ENDCMP
+#
+#End Doc Library

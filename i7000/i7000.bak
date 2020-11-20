@@ -2082,4 +2082,6 @@ Text GLabel 6050 10750 0    31   Input ~ 0
 CN04_34
 Wire Wire Line
 	6050 10750 6200 10750
+Text Notes 9900 23650 0    31   ~ 0
+/FDC_CS = 0 when:\nA13 == 1\nA11 == 0\nA10 == 0\nCN04_14 == 0\nCN04_42 == 1\nCN04_43 == 1\n
 $EndSCHEMATC

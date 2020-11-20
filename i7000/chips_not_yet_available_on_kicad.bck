@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 8202A
+D Intel 8202A Dynamic RAM Controller
+K DRAM
+$ENDCMP
+#
+#End Doc Library
