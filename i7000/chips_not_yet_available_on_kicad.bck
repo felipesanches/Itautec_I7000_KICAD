@@ -13,4 +13,12 @@ $CMP NSC800
 D NSC800 - High-Performance Low-Power CMOS Microprocessor
 $ENDCMP
 #
+$CMP TMP8251AP
+D PROGRAMMABLE COMMUNICATION INTERFACE
+$ENDCMP
+#
+$CMP WD2793
+D Floppy Disk Formatter/Controller
+$ENDCMP
+#
 #End Doc Library

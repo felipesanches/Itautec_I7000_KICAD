@@ -17,4 +17,8 @@ $CMP TMP8251AP
 D PROGRAMMABLE COMMUNICATION INTERFACE
 $ENDCMP
 #
+$CMP WD2793
+D Floppy Disk Formatter/Controller
+$ENDCMP
+#
 #End Doc Library
