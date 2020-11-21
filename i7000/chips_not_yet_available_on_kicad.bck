@@ -5,4 +5,12 @@ D Intel 8202A Dynamic RAM Controller
 K DRAM
 $ENDCMP
 #
+$CMP 8279
+D PROGRAMMABLE KEYBOARD/DISPLAY INTERFACE
+$ENDCMP
+#
+$CMP NSC800
+D NSC800 - High-Performance Low-Power CMOS Microprocessor
+$ENDCMP
+#
 #End Doc Library

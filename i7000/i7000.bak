@@ -87,10 +87,8 @@ Text GLabel 13600 6150 2    31   Output ~ 0
 ~KBDC_CS
 Wire Wire Line
 	13600 6150 13250 6150
-Text GLabel 25800 7650 0    31   Input ~ 0
+Text GLabel 29700 6950 0    31   Input ~ 0
 ~KBDC_CS
-Text Notes 25900 8600 0    197  ~ 0
-F01 (Keyboard Controller)\nTODO:\nDesenhar um\nsímbolo para\no M5L8279P-5
 $Comp
 L Logic_74xx:74LS32 G32
 U 2 1 5FB1DF07
@@ -695,17 +693,6 @@ Text GLabel 8850 7350 0    31   Input ~ 0
 A5
 Wire Wire Line
 	8850 7350 9000 7350
-$Comp
-L Zilog:Z80CPU E01
-U 1 1 5FD1F685
-P 5150 7150
-F 0 "E01" H 5150 8828 50  0000 C CNN
-F 1 "NSC800_CPU" H 5150 8737 50  0000 C CNN
-F 2 "" H 5150 7550 50  0001 C CNN
-F 3 "www.zilog.com/manage_directlink.php?filepath=docs/z80/um0080" H 5150 7550 50  0001 C CNN
-	1    5150 7150
-	1    0    0    -1  
-$EndComp
 $Comp
 L Logic_74xx:74LS257 E08
 U 1 1 5FD297F1
@@ -1640,72 +1627,70 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 2100 7450 50  0001 C CNN
 	1    2100 7450
 	1    0    0    -1  
 $EndComp
-Text Notes 4750 5450 0    31   ~ 0
-TODO: symbol for NSC800.\nThis one has the Z80 pinout.\nOn the NSC800 the pinout is different.
-Text GLabel 6000 5950 2    31   Output ~ 0
+Text GLabel 4800 5250 0    31   Output ~ 0
 CPU_AD0
 Wire Wire Line
-	5850 5950 6000 5950
-Text GLabel 6000 6050 2    31   Output ~ 0
+	4950 5250 4800 5250
+Text GLabel 4800 5350 0    31   Output ~ 0
 CPU_AD1
-Text GLabel 6000 6150 2    31   Output ~ 0
+Text GLabel 4800 5450 0    31   Output ~ 0
 CPU_AD2
-Text GLabel 6000 6250 2    31   Output ~ 0
+Text GLabel 4800 5550 0    31   Output ~ 0
 CPU_AD3
 Wire Wire Line
-	6000 6050 5850 6050
+	4800 5350 4950 5350
 Wire Wire Line
-	5850 6150 6000 6150
+	4950 5450 4800 5450
 Wire Wire Line
-	6000 6250 5850 6250
-Text GLabel 6000 6350 2    31   Output ~ 0
+	4800 5550 4950 5550
+Text GLabel 4800 5650 0    31   Output ~ 0
 CPU_AD4
 Wire Wire Line
-	5850 6350 6000 6350
-Text GLabel 6000 6450 2    31   Output ~ 0
+	4950 5650 4800 5650
+Text GLabel 4800 5750 0    31   Output ~ 0
 CPU_AD5
-Text GLabel 6000 6550 2    31   Output ~ 0
+Text GLabel 4800 5850 0    31   Output ~ 0
 CPU_AD6
-Text GLabel 6000 6650 2    31   Output ~ 0
+Text GLabel 4800 5950 0    31   Output ~ 0
 CPU_AD7
 Wire Wire Line
-	6000 6450 5850 6450
+	4800 5750 4950 5750
 Wire Wire Line
-	5850 6550 6000 6550
+	4950 5850 4800 5850
 Wire Wire Line
-	6000 6650 5850 6650
-Text GLabel 6000 6750 2    31   Output ~ 0
+	4800 5950 4950 5950
+Text GLabel 4800 6350 0    31   Output ~ 0
 CPU_A8
 Wire Wire Line
-	5850 6750 6000 6750
-Text GLabel 6000 6850 2    31   Output ~ 0
+	4950 6350 4800 6350
+Text GLabel 4800 6450 0    31   Output ~ 0
 CPU_A9
-Text GLabel 6000 6950 2    31   Output ~ 0
+Text GLabel 4800 6550 0    31   Output ~ 0
 CPU_A10
-Text GLabel 6000 7050 2    31   Output ~ 0
+Text GLabel 4800 6650 0    31   Output ~ 0
 CPU_A11
 Wire Wire Line
-	6000 6850 5850 6850
+	4800 6450 4950 6450
 Wire Wire Line
-	5850 6950 6000 6950
+	4950 6550 4800 6550
 Wire Wire Line
-	6000 7050 5850 7050
-Text GLabel 6000 7150 2    31   Output ~ 0
+	4800 6650 4950 6650
+Text GLabel 4800 6750 0    31   Output ~ 0
 CPU_A12
 Wire Wire Line
-	5850 7150 6000 7150
-Text GLabel 6000 7250 2    31   Output ~ 0
+	4950 6750 4800 6750
+Text GLabel 4800 6850 0    31   Output ~ 0
 CPU_A13
-Text GLabel 6000 7350 2    31   Output ~ 0
+Text GLabel 4800 6950 0    31   Output ~ 0
 CPU_A14
-Text GLabel 6000 7450 2    31   Output ~ 0
+Text GLabel 4800 7050 0    31   Output ~ 0
 CPU_A15
 Wire Wire Line
-	6000 7250 5850 7250
+	4800 6850 4950 6850
 Wire Wire Line
-	5850 7350 6000 7350
+	4950 6950 4800 6950
 Wire Wire Line
-	6000 7450 5850 7450
+	4800 7050 4950 7050
 Text GLabel 1500 7650 0    31   Input ~ 0
 CPU_AD0
 Text GLabel 1500 7550 0    31   Input ~ 0
@@ -2084,4 +2069,28 @@ Wire Wire Line
 	6050 10750 6200 10750
 Text Notes 9900 23650 0    31   ~ 0
 /FDC_CS = 0 when:\nA13 == 1\nA11 == 0\nA10 == 0\nCN04_14 == 0\nCN04_42 == 1\nCN04_43 == 1\n
+$Comp
+L chips_not_yet_available_on_kicad:NSC800 E01
+U 1 1 61F6CA9C
+P 5550 5500
+F 0 "E01" H 5250 6200 31  0000 C CNN
+F 1 "NSC800D-4" H 5750 6200 31  0000 C CNN
+F 2 "" H 5300 6100 31  0001 C CNN
+F 3 "" H 5300 6100 31  0001 C CNN
+	1    5550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L chips_not_yet_available_on_kicad:M5L8279P-5 U?
+U 1 1 620B6BC7
+P 30400 7800
+F 0 "U?" H 30400 9534 31  0000 C CNN
+F 1 "M5L8279P-5" H 30400 9472 31  0000 C CNN
+F 2 "" H 30700 9200 31  0001 C CNN
+F 3 "" H 30700 9200 31  0001 C CNN
+	1    30400 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	29700 6950 29800 6950
 $EndSCHEMATC

@@ -62,7 +62,7 @@ Text GLabel 25650 5150 0    31   Input ~ 0
 ~I8251_CS
 Wire Wire Line
 	25650 5150 25800 5150
-Text Notes 25950 5750 0    197  ~ 0
+Text Notes 28200 12100 1    197  ~ 0
 F04 (Serial Port Controller)\nTODO:\nDesenhar um\nsímbolo para\no TMP8251AP
 Text GLabel 13600 6250 2    31   Output ~ 0
 ~I8251_CS
@@ -87,10 +87,8 @@ Text GLabel 13600 6150 2    31   Output ~ 0
 ~KBDC_CS
 Wire Wire Line
 	13600 6150 13250 6150
-Text GLabel 25800 7650 0    31   Input ~ 0
+Text GLabel 29400 8350 3    31   Input ~ 0
 ~KBDC_CS
-Text Notes 25900 8600 0    197  ~ 0
-F01 (Keyboard Controller)\nTODO:\nDesenhar um\nsímbolo para\no M5L8279P-5
 $Comp
 L Logic_74xx:74LS32 G32
 U 2 1 5FB1DF07
@@ -2082,4 +2080,17 @@ F 3 "" H 5300 6100 31  0001 C CNN
 	1    5550 5500
 	1    0    0    -1  
 $EndComp
+$Comp
+L chips_not_yet_available_on_kicad:M5L8279P-5 F01
+U 1 1 620B6BC7
+P 30250 7650
+F 0 "F01" V 30050 6100 31  0000 R CNN
+F 1 "M5L8279P-5" V 29950 6100 31  0000 R CNN
+F 2 "" H 30550 9050 31  0001 C CNN
+F 3 "" H 30550 9050 31  0001 C CNN
+	1    30250 7650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	29400 8350 29400 8250
 $EndSCHEMATC
