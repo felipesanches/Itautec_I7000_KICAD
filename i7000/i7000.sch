@@ -62,8 +62,6 @@ Text GLabel 25650 5150 0    31   Input ~ 0
 ~I8251_CS
 Wire Wire Line
 	25650 5150 25800 5150
-Text Notes 28200 12100 1    197  ~ 0
-F04 (Serial Port Controller)\nTODO:\nDesenhar um\nsímbolo para\no TMP8251AP
 Text GLabel 13600 6250 2    31   Output ~ 0
 ~I8251_CS
 Text GLabel 22300 4000 0    31   Input ~ 0
@@ -2093,4 +2091,15 @@ F 3 "" H 30550 9050 31  0001 C CNN
 $EndComp
 Wire Wire Line
 	29400 8350 29400 8250
+$Comp
+L chips_not_yet_available_on_kicad:TMP8251AP F04
+U 1 1 622E056F
+P 32850 10050
+F 0 "F04" H 32600 10950 31  0000 C CNN
+F 1 "TMP8251AP" H 33150 10950 31  0000 C CNN
+F 2 "" H 33100 10900 31  0001 C CNN
+F 3 "" H 33100 10900 31  0001 C CNN
+	1    32850 10050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

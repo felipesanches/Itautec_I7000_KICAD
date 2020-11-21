@@ -13,4 +13,8 @@ $CMP NSC800
 D NSC800 - High-Performance Low-Power CMOS Microprocessor
 $ENDCMP
 #
+$CMP TMP8251AP
+D PROGRAMMABLE COMMUNICATION INTERFACE
+$ENDCMP
+#
 #End Doc Library
