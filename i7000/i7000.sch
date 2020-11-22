@@ -448,10 +448,10 @@ Wire Wire Line
 	8600 13600 8700 13600
 Wire Wire Line
 	9750 4750 9950 4750
-Text GLabel 9350 13500 2    31   Input ~ 0
+Text GLabel 9300 13500 2    31   Input ~ 0
 A7
 Wire Wire Line
-	9350 13500 9200 13500
+	9300 13500 9200 13500
 Text GLabel 8600 13700 0    31   Output ~ 0
 A9
 Wire Wire Line
@@ -472,18 +472,18 @@ Text GLabel 8600 14100 0    31   Output ~ 0
 A2
 Text GLabel 8600 14200 0    31   Output ~ 0
 A1
-Text GLabel 9350 14000 2    31   Output ~ 0
+Text GLabel 9300 14000 2    31   Output ~ 0
 A11
 Wire Wire Line
 	8700 14100 8600 14100
 Wire Wire Line
 	8600 14200 8700 14200
 Wire Wire Line
-	9200 14000 9350 14000
-Text GLabel 9350 14100 2    31   Output ~ 0
+	9200 14000 9300 14000
+Text GLabel 9300 14100 2    31   Output ~ 0
 A3
 Wire Wire Line
-	9350 14100 9200 14100
+	9300 14100 9200 14100
 Wire Wire Line
 	9400 15100 9200 15100
 $Comp
@@ -588,18 +588,18 @@ F 3 "" H 8500 12200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8300 12300 8700 12300
-Text GLabel 9350 13700 2    31   Output ~ 0
+Text GLabel 9300 13700 2    31   Output ~ 0
 A8
 Wire Wire Line
-	9350 13700 9200 13700
-Text GLabel 9350 13600 2    31   Output ~ 0
+	9300 13700 9200 13700
+Text GLabel 9300 13600 2    31   Output ~ 0
 A4
 Wire Wire Line
-	9350 13600 9200 13600
-Text GLabel 9350 13400 2    31   Output ~ 0
+	9300 13600 9200 13600
+Text GLabel 9300 13400 2    31   Output ~ 0
 A13
 Wire Wire Line
-	9350 13400 9200 13400
+	9300 13400 9200 13400
 Text GLabel 8600 13500 0    31   Output ~ 0
 A5
 Wire Wire Line
@@ -1098,10 +1098,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 13900 23250 50  0001 C CNN
 	4    13900 23250
 	1    0    0    -1  
 $EndComp
-Text GLabel 9350 13300 2    31   Output ~ 0
+Text GLabel 9300 13300 2    31   Output ~ 0
 CN04_19
 Wire Wire Line
-	9350 13300 9200 13300
+	9300 13300 9200 13300
 Text GLabel 13500 23250 0    31   Input ~ 0
 CN04_19
 Wire Wire Line
@@ -1151,10 +1151,10 @@ Wire Wire Line
 	9650 22500 9650 22850
 Wire Wire Line
 	9650 22850 9800 22850
-Text GLabel 9350 13800 2    31   Input ~ 0
+Text GLabel 9300 13800 2    31   Input ~ 0
 CN04_14
 Wire Wire Line
-	9350 13800 9200 13800
+	9300 13800 9200 13800
 Text GLabel 8500 22500 0    31   Input ~ 0
 CN04_14
 Wire Wire Line
@@ -1578,114 +1578,114 @@ Wire Wire Line
 $Comp
 L Logic_74xx:74LS373 E06
 U 1 1 608B8149
-P 2100 7450
-F 0 "E06" H 2100 8428 50  0000 C CNN
-F 1 "74LS373" H 2100 8337 50  0000 C CNN
-F 2 "" H 2100 7450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 2100 7450 50  0001 C CNN
-	1    2100 7450
+P 2500 8050
+F 0 "E06" H 2500 9028 50  0000 C CNN
+F 1 "74LS373" H 2500 8937 50  0000 C CNN
+F 2 "" H 2500 8050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 2500 8050 50  0001 C CNN
+	1    2500 8050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 5250 0    31   Output ~ 0
+Text GLabel 3700 1650 0    31   Output ~ 0
 CPU_AD0
 Wire Wire Line
-	4950 5250 4800 5250
-Text GLabel 4800 5350 0    31   Output ~ 0
+	3850 1650 3700 1650
+Text GLabel 3700 1750 0    31   Output ~ 0
 CPU_AD1
-Text GLabel 4800 5450 0    31   Output ~ 0
+Text GLabel 3700 1850 0    31   Output ~ 0
 CPU_AD2
-Text GLabel 4800 5550 0    31   Output ~ 0
+Text GLabel 3700 1950 0    31   Output ~ 0
 CPU_AD3
 Wire Wire Line
-	4800 5350 4950 5350
+	3700 1750 3850 1750
 Wire Wire Line
-	4950 5450 4800 5450
+	3850 1850 3700 1850
 Wire Wire Line
-	4800 5550 4950 5550
-Text GLabel 4800 5650 0    31   Output ~ 0
+	3700 1950 3850 1950
+Text GLabel 3700 2050 0    31   Output ~ 0
 CPU_AD4
 Wire Wire Line
-	4950 5650 4800 5650
-Text GLabel 4800 5750 0    31   Output ~ 0
+	3850 2050 3700 2050
+Text GLabel 3700 2150 0    31   Output ~ 0
 CPU_AD5
-Text GLabel 4800 5850 0    31   Output ~ 0
+Text GLabel 3700 2250 0    31   Output ~ 0
 CPU_AD6
-Text GLabel 4800 5950 0    31   Output ~ 0
+Text GLabel 3700 2350 0    31   Output ~ 0
 CPU_AD7
 Wire Wire Line
-	4800 5750 4950 5750
+	3700 2150 3850 2150
 Wire Wire Line
-	4950 5850 4800 5850
+	3850 2250 3700 2250
 Wire Wire Line
-	4800 5950 4950 5950
-Text GLabel 4800 6350 0    31   Output ~ 0
+	3700 2350 3850 2350
+Text GLabel 3700 2750 0    31   Output ~ 0
 CPU_A8
 Wire Wire Line
-	4950 6350 4800 6350
-Text GLabel 4800 6450 0    31   Output ~ 0
+	3850 2750 3700 2750
+Text GLabel 3700 2850 0    31   Output ~ 0
 CPU_A9
-Text GLabel 4800 6550 0    31   Output ~ 0
+Text GLabel 3700 2950 0    31   Output ~ 0
 CPU_A10
-Text GLabel 4800 6650 0    31   Output ~ 0
+Text GLabel 3700 3050 0    31   Output ~ 0
 CPU_A11
 Wire Wire Line
-	4800 6450 4950 6450
+	3700 2850 3850 2850
 Wire Wire Line
-	4950 6550 4800 6550
+	3850 2950 3700 2950
 Wire Wire Line
-	4800 6650 4950 6650
-Text GLabel 4800 6750 0    31   Output ~ 0
+	3700 3050 3850 3050
+Text GLabel 3700 3150 0    31   Output ~ 0
 CPU_A12
 Wire Wire Line
-	4950 6750 4800 6750
-Text GLabel 4800 6850 0    31   Output ~ 0
+	3850 3150 3700 3150
+Text GLabel 3700 3250 0    31   Output ~ 0
 CPU_A13
-Text GLabel 4800 6950 0    31   Output ~ 0
+Text GLabel 3700 3350 0    31   Output ~ 0
 CPU_A14
-Text GLabel 4800 7050 0    31   Output ~ 0
+Text GLabel 3700 3450 0    31   Output ~ 0
 CPU_A15
 Wire Wire Line
-	4800 6850 4950 6850
+	3700 3250 3850 3250
 Wire Wire Line
-	4950 6950 4800 6950
+	3850 3350 3700 3350
 Wire Wire Line
-	4800 7050 4950 7050
-Text GLabel 1500 7650 0    31   Input ~ 0
+	3700 3450 3850 3450
+Text GLabel 1150 8250 0    31   Input ~ 0
 CPU_AD0
-Text GLabel 1500 7550 0    31   Input ~ 0
+Text GLabel 1150 8150 0    31   Input ~ 0
 CPU_AD1
-Text GLabel 1500 7450 0    31   Input ~ 0
+Text GLabel 1150 8050 0    31   Input ~ 0
 CPU_AD2
-Text GLabel 1500 7350 0    31   Input ~ 0
+Text GLabel 1150 7950 0    31   Input ~ 0
 CPU_AD3
-Text GLabel 1500 7250 0    31   Input ~ 0
+Text GLabel 1150 7850 0    31   Input ~ 0
 CPU_AD4
-Text GLabel 1500 7150 0    31   Input ~ 0
+Text GLabel 1150 7750 0    31   Input ~ 0
 CPU_AD5
-Text GLabel 1500 7050 0    31   Input ~ 0
+Text GLabel 1150 7650 0    31   Input ~ 0
 CPU_AD6
-Text GLabel 1500 6950 0    31   Input ~ 0
+Text GLabel 1150 7550 0    31   Input ~ 0
 CPU_AD7
 Wire Wire Line
-	1500 7650 1600 7650
+	1150 8250 1600 8250
 Wire Wire Line
-	1500 6950 1600 6950
+	1150 7550 1250 7550
 Wire Wire Line
-	1600 7050 1500 7050
+	2000 7650 1300 7650
 Wire Wire Line
-	1500 7150 1600 7150
+	1150 7750 1350 7750
 Wire Wire Line
-	1600 7250 1500 7250
+	2000 7850 1400 7850
 Wire Wire Line
-	1500 7350 1600 7350
+	1150 7950 1450 7950
 Wire Wire Line
-	1600 7450 1500 7450
+	2000 8050 1500 8050
 Wire Wire Line
-	1500 7550 1600 7550
-Text GLabel 2750 7650 2    31   Output ~ 0
+	1150 8150 1550 8150
+Text GLabel 3150 8250 2    31   Output ~ 0
 A0
 Wire Wire Line
-	2750 7650 2600 7650
+	3150 8250 3000 8250
 $Comp
 L chips_not_yet_available_on_kicad:8202A E02
 U 1 1 60D34F91
@@ -1725,109 +1725,109 @@ Wire Wire Line
 	26150 10200 26000 10200
 Wire Wire Line
 	26000 10300 26150 10300
-Text GLabel 2750 7550 2    31   Output ~ 0
+Text GLabel 3150 8150 2    31   Output ~ 0
 A1
-Text GLabel 2750 7450 2    31   Output ~ 0
+Text GLabel 3150 8050 2    31   Output ~ 0
 A2
-Text GLabel 2750 7350 2    31   Output ~ 0
+Text GLabel 3150 7950 2    31   Output ~ 0
 A3
-Text GLabel 2750 7250 2    31   Output ~ 0
+Text GLabel 3150 7850 2    31   Output ~ 0
 A4
-Text GLabel 2750 7150 2    31   Output ~ 0
+Text GLabel 3150 7750 2    31   Output ~ 0
 A5
-Text GLabel 2750 7050 2    31   Output ~ 0
+Text GLabel 3150 7650 2    31   Output ~ 0
 A6
-Text GLabel 2750 6950 2    31   Output ~ 0
+Text GLabel 3150 7550 2    31   Output ~ 0
 A7
 Wire Wire Line
-	2750 6950 2600 6950
+	3150 7550 3000 7550
 Wire Wire Line
-	2600 7050 2750 7050
+	3000 7650 3150 7650
 Wire Wire Line
-	2750 7150 2600 7150
+	3150 7750 3000 7750
 Wire Wire Line
-	2600 7250 2750 7250
+	3000 7850 3150 7850
 Wire Wire Line
-	2750 7350 2600 7350
+	3150 7950 3000 7950
 Wire Wire Line
-	2600 7450 2750 7450
+	3000 8050 3150 8050
 Wire Wire Line
-	2750 7550 2600 7550
+	3150 8150 3000 8150
 $Comp
 L Logic_74xx:74LS373 E05
 U 1 1 610F3C11
-P 2100 5400
-F 0 "E05" H 2100 6378 50  0000 C CNN
-F 1 "74LS373" H 2100 6287 50  0000 C CNN
-F 2 "" H 2100 5400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 2100 5400 50  0001 C CNN
-	1    2100 5400
+P 2200 2150
+F 0 "E05" H 2200 3128 50  0000 C CNN
+F 1 "74LS373" H 2200 3037 50  0000 C CNN
+F 2 "" H 2200 2150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS373" H 2200 2150 50  0001 C CNN
+	1    2200 2150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 5600 0    31   Input ~ 0
+Text GLabel 1550 2350 0    31   Input ~ 0
 CPU_A8
 Wire Wire Line
-	1450 5600 1600 5600
-Text GLabel 1450 5500 0    31   Input ~ 0
+	1550 2350 1700 2350
+Text GLabel 1550 2250 0    31   Input ~ 0
 CPU_A9
-Text GLabel 1450 5400 0    31   Input ~ 0
+Text GLabel 1550 2150 0    31   Input ~ 0
 CPU_A10
-Text GLabel 1450 5300 0    31   Input ~ 0
+Text GLabel 1550 2050 0    31   Input ~ 0
 CPU_A11
-Text GLabel 1450 5200 0    31   Input ~ 0
+Text GLabel 1550 1950 0    31   Input ~ 0
 CPU_A12
-Text GLabel 1450 5100 0    31   Input ~ 0
+Text GLabel 1550 1850 0    31   Input ~ 0
 CPU_A13
-Text GLabel 1450 5000 0    31   Input ~ 0
+Text GLabel 1550 1750 0    31   Input ~ 0
 CPU_A14
-Text GLabel 1450 4900 0    31   Input ~ 0
+Text GLabel 1550 1650 0    31   Input ~ 0
 CPU_A15
 Wire Wire Line
-	1450 4900 1600 4900
+	1550 1650 1700 1650
 Wire Wire Line
-	1600 5000 1450 5000
+	1700 1750 1550 1750
 Wire Wire Line
-	1450 5100 1600 5100
+	1550 1850 1700 1850
 Wire Wire Line
-	1600 5200 1450 5200
+	1700 1950 1550 1950
 Wire Wire Line
-	1450 5300 1600 5300
+	1550 2050 1700 2050
 Wire Wire Line
-	1600 5400 1450 5400
+	1700 2150 1550 2150
 Wire Wire Line
-	1450 5500 1600 5500
-Text GLabel 2750 5600 2    31   Output ~ 0
+	1550 2250 1700 2250
+Text GLabel 2850 2350 2    31   Output ~ 0
 A8
 Wire Wire Line
-	2750 5600 2600 5600
-Text GLabel 2750 5500 2    31   Output ~ 0
+	2850 2350 2700 2350
+Text GLabel 2850 2250 2    31   Output ~ 0
 A9
-Text GLabel 2750 5400 2    31   Output ~ 0
+Text GLabel 2850 2150 2    31   Output ~ 0
 A10
-Text GLabel 2750 5300 2    31   Output ~ 0
+Text GLabel 2850 2050 2    31   Output ~ 0
 A11
-Text GLabel 2750 5200 2    31   Output ~ 0
+Text GLabel 2850 1950 2    31   Output ~ 0
 A12
-Text GLabel 2750 5100 2    31   Output ~ 0
+Text GLabel 2850 1850 2    31   Output ~ 0
 A13
-Text GLabel 2750 5000 2    31   Output ~ 0
+Text GLabel 2850 1750 2    31   Output ~ 0
 A14
-Text GLabel 2750 4900 2    31   Output ~ 0
+Text GLabel 2850 1650 2    31   Output ~ 0
 A15
 Wire Wire Line
-	2750 4900 2600 4900
+	2850 1650 2700 1650
 Wire Wire Line
-	2600 5000 2750 5000
+	2700 1750 2850 1750
 Wire Wire Line
-	2750 5100 2600 5100
+	2850 1850 2700 1850
 Wire Wire Line
-	2600 5200 2750 5200
+	2700 1950 2850 1950
 Wire Wire Line
-	2750 5300 2600 5300
+	2850 2050 2700 2050
 Wire Wire Line
-	2600 5400 2750 5400
+	2700 2150 2850 2150
 Wire Wire Line
-	2750 5500 2600 5500
+	2850 2250 2700 2250
 Text GLabel 15900 14850 0    31   Input ~ 0
 A14
 Wire Wire Line
@@ -1886,13 +1886,13 @@ Wire Wire Line
 $Comp
 L Logic_74xx:74LS374 E15
 U 1 1 6170916A
-P 13300 10900
-F 0 "E15" V 13254 11741 50  0000 L CNN
-F 1 "74LS374" V 13345 11741 50  0000 L CNN
-F 2 "" H 13300 10900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS374" H 13300 10900 50  0001 C CNN
-	1    13300 10900
-	0    1    1    0   
+P 4050 6450
+F 0 "E15" V 4004 7291 50  0000 L CNN
+F 1 "74LS374" V 4095 7291 50  0000 L CNN
+F 2 "" H 4050 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS374" H 4050 6450 50  0001 C CNN
+	1    4050 6450
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	13800 11400 13800 11900
@@ -2031,12 +2031,12 @@ Text Notes 9900 23650 0    31   ~ 0
 $Comp
 L chips_not_yet_available_on_kicad:NSC800 E01
 U 1 1 61F6CA9C
-P 5550 5500
-F 0 "E01" H 5250 6200 31  0000 C CNN
-F 1 "NSC800D-4" H 5750 6200 31  0000 C CNN
-F 2 "" H 5300 6100 31  0001 C CNN
-F 3 "" H 5300 6100 31  0001 C CNN
-	1    5550 5500
+P 4450 1900
+F 0 "E01" H 4150 2600 31  0000 C CNN
+F 1 "NSC800D-4" H 4650 2600 31  0000 C CNN
+F 2 "" H 4200 2500 31  0001 C CNN
+F 3 "" H 4200 2500 31  0001 C CNN
+	1    4450 1900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2139,37 +2139,37 @@ IR3
 Wire Wire Line
 	3500 21700 3400 21700
 $Comp
-L intel:8259A U?
+L intel:8259A E03
 U 1 1 629373E3
-P 13600 16600
-F 0 "U?" H 13600 17878 50  0000 C CNN
-F 1 "8259A" H 13600 17787 50  0000 C CNN
-F 2 "DIP-28" H 13600 16600 50  0001 C CIN
-F 3 "" H 13600 16600 50  0001 C CNN
-	1    13600 16600
+P 21900 17000
+F 0 "E03" H 21600 18050 50  0000 C CNN
+F 1 "M5L8259AP" H 22200 18050 50  0000 C CNN
+F 2 "DIP-28" H 21900 17000 50  0001 C CIN
+F 3 "" H 21900 17000 50  0001 C CNN
+	1    21900 17000
 	1    0    0    -1  
 $EndComp
-Text GLabel 14350 16200 2    31   Input ~ 0
+Text GLabel 22650 16600 2    31   Input ~ 0
 IR3
 Wire Wire Line
-	14350 16200 14200 16200
-Text GLabel 9350 12700 2    31   Output ~ 0
+	22650 16600 22500 16600
+Text GLabel 9300 12700 2    31   Output ~ 0
 IR3
 Wire Wire Line
-	9350 12700 9200 12700
-Text GLabel 12800 16900 0    31   Input ~ 0
+	9300 12700 9200 12700
+Text GLabel 21100 17300 0    31   Input ~ 0
 ~PIC_CS
 Wire Wire Line
-	12800 16900 13000 16900
+	21100 17300 21300 17300
 $Comp
 L Logic_74xx:74LS245 E07
 U 1 1 62ACF18E
-P 10600 17000
-F 0 "E07" H 10600 17978 50  0000 C CNN
-F 1 "74LS245" H 10600 17887 50  0000 C CNN
-F 2 "" H 10600 17000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 10600 17000 50  0001 C CNN
-	1    10600 17000
+P 2500 4900
+F 0 "E07" H 2300 5600 50  0000 C CNN
+F 1 "74LS245" H 2700 5600 50  0000 C CNN
+F 2 "" H 2500 4900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 2500 4900 50  0001 C CNN
+	1    2500 4900
 	1    0    0    -1  
 $EndComp
 Text GLabel 14000 5000 2    31   Output ~ 0
@@ -2414,13 +2414,13 @@ Wire Wire Line
 	20750 14400 20600 14400
 Wire Wire Line
 	20600 14300 20750 14300
-Text GLabel 9350 14400 2    31   Input ~ 0
+Text GLabel 9300 14400 2    31   Input ~ 0
 CN04_08
-Text GLabel 9350 14500 2    31   Input ~ 0
+Text GLabel 9300 14500 2    31   Input ~ 0
 CN04_07
-Text GLabel 9350 14300 2    31   Input ~ 0
+Text GLabel 9300 14300 2    31   Input ~ 0
 CN04_09
-Text GLabel 9350 14200 2    31   Input ~ 0
+Text GLabel 9300 14200 2    31   Input ~ 0
 CN04_10
 Text GLabel 8600 14400 0    31   Input ~ 0
 CN04_53
@@ -2439,13 +2439,13 @@ CN04_53
 Text GLabel 2800 23300 0    31   Output ~ 0
 CN04_52
 Wire Wire Line
-	9350 14500 9200 14500
+	9300 14500 9200 14500
 Wire Wire Line
-	9350 14400 9200 14400
+	9300 14400 9200 14400
 Wire Wire Line
-	9350 14300 9200 14300
+	9300 14300 9200 14300
 Wire Wire Line
-	9350 14200 9200 14200
+	9300 14200 9200 14200
 Wire Wire Line
 	8600 14300 8700 14300
 Wire Wire Line
@@ -2462,4 +2462,415 @@ Wire Wire Line
 	3400 23400 3550 23400
 Wire Wire Line
 	3550 23500 3400 23500
+Text GLabel 27600 10450 2    31   Input ~ 0
+DRAM_B0
+Wire Wire Line
+	27600 10450 27450 10450
+$Comp
+L power:GND #PWR?
+U 1 1 66137E6C
+P 26800 12150
+F 0 "#PWR?" H 26800 11900 50  0001 C CNN
+F 1 "GND" H 26805 11977 50  0000 C CNN
+F 2 "" H 26800 12150 50  0001 C CNN
+F 3 "" H 26800 12150 50  0001 C CNN
+	1    26800 12150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	26800 12150 26800 12050
+$Comp
+L power:GND #PWR?
+U 1 1 66180650
+P 27550 10350
+F 0 "#PWR?" H 27550 10100 50  0001 C CNN
+F 1 "GND" V 27555 10222 50  0000 R CNN
+F 2 "" H 27550 10350 50  0001 C CNN
+F 3 "" H 27550 10350 50  0001 C CNN
+	1    27550 10350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	27550 10350 27450 10350
+$Comp
+L Logic_74xx:74LS32 E32
+U 2 1 662ECDB1
+P 22100 12000
+F 0 "E32" H 22100 12325 50  0000 C CNN
+F 1 "74LS32" H 22100 12234 50  0000 C CNN
+F 2 "" H 22100 12000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 22100 12000 50  0001 C CNN
+	2    22100 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_74xx:74LS32 E32
+U 4 1 662ED06C
+P 22100 12650
+F 0 "E32" H 22100 12975 50  0000 C CNN
+F 1 "74LS32" H 22100 12884 50  0000 C CNN
+F 2 "" H 22100 12650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 22100 12650 50  0001 C CNN
+	4    22100 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	21800 11900 21600 11900
+Wire Wire Line
+	21600 11900 21600 12550
+Wire Wire Line
+	21600 12550 21800 12550
+Wire Wire Line
+	21600 11900 21450 11900
+Connection ~ 21600 11900
+Text GLabel 21450 11900 0    31   Input ~ 0
+DRAM_B0
+$Comp
+L Logic_74xx:74LS153 E12
+U 1 1 663CB31C
+P 16500 16850
+F 0 "E12" H 16500 18028 50  0000 C CNN
+F 1 "74LS153" H 16500 17937 50  0000 C CNN
+F 2 "" H 16500 16850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 16500 16850 50  0001 C CNN
+	1    16500 16850
+	1    0    0    -1  
+$EndComp
+Text GLabel 17150 16150 2    31   Output ~ 0
+DRAM_B0
+Wire Wire Line
+	17150 16150 17000 16150
+Wire Wire Line
+	16000 16150 15650 16150
+Wire Wire Line
+	15650 16150 15650 13050
+Wire Wire Line
+	16000 16850 15550 16850
+Wire Wire Line
+	15550 16850 15550 13050
+Wire Wire Line
+	15250 13050 15250 16250
+Wire Wire Line
+	15250 16250 16000 16250
+Wire Wire Line
+	16000 16950 15150 16950
+Wire Wire Line
+	15150 16950 15150 13050
+Wire Wire Line
+	13600 16350 16000 16350
+Wire Wire Line
+	13600 13050 13600 16350
+Wire Wire Line
+	16000 17050 13500 17050
+Wire Wire Line
+	13500 17050 13500 13050
+Wire Wire Line
+	13200 13050 13200 16450
+Wire Wire Line
+	13200 16450 16000 16450
+Wire Wire Line
+	13100 13050 13100 17150
+Wire Wire Line
+	13100 17150 16000 17150
+$Comp
+L power:GND #PWR?
+U 1 1 66D60F50
+P 15900 16650
+F 0 "#PWR?" H 15900 16400 50  0001 C CNN
+F 1 "GND" V 15905 16522 50  0000 R CNN
+F 2 "" H 15900 16650 50  0001 C CNN
+F 3 "" H 15900 16650 50  0001 C CNN
+	1    15900 16650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16000 16650 15900 16650
+$Comp
+L power:GND #PWR?
+U 1 1 66DAE9DB
+P 15900 17350
+F 0 "#PWR?" H 15900 17100 50  0001 C CNN
+F 1 "GND" V 15905 17222 50  0000 R CNN
+F 2 "" H 15900 17350 50  0001 C CNN
+F 3 "" H 15900 17350 50  0001 C CNN
+	1    15900 17350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15900 17350 16000 17350
+Text GLabel 15900 17550 0    31   Input ~ 0
+A14
+Wire Wire Line
+	15900 17550 16000 17550
+Text GLabel 15900 17650 0    31   Input ~ 0
+A15
+Wire Wire Line
+	15900 17650 16000 17650
+Text GLabel 8600 14800 0    31   Output ~ 0
+D0
+Wire Wire Line
+	8600 14800 8700 14800
+Text GLabel 8600 14700 0    31   Output ~ 0
+D1
+Text GLabel 9300 14700 2    31   Output ~ 0
+D2
+Wire Wire Line
+	9300 14700 9200 14700
+Wire Wire Line
+	8700 14700 8600 14700
+Text GLabel 8600 14600 0    31   Output ~ 0
+D3
+Text GLabel 9300 14600 2    31   Output ~ 0
+D4
+Text GLabel 9300 14800 2    31   Output ~ 0
+D5
+Wire Wire Line
+	9300 14800 9200 14800
+Wire Wire Line
+	9200 14600 9300 14600
+Wire Wire Line
+	8600 14600 8700 14600
+Text GLabel 8600 14900 0    31   Output ~ 0
+D6
+Text GLabel 9300 14900 2    31   Output ~ 0
+D7
+Wire Wire Line
+	9300 14900 9200 14900
+Wire Wire Line
+	8700 14900 8600 14900
+Text GLabel 21200 16200 0    31   Input ~ 0
+D0
+Text GLabel 21200 16300 0    31   Input ~ 0
+D1
+Text GLabel 21200 16400 0    31   Input ~ 0
+D2
+Text GLabel 21200 16500 0    31   Input ~ 0
+D3
+Wire Wire Line
+	21200 16500 21300 16500
+Wire Wire Line
+	21300 16400 21200 16400
+Wire Wire Line
+	21200 16300 21300 16300
+Wire Wire Line
+	21300 16200 21200 16200
+Text GLabel 21200 16600 0    31   Input ~ 0
+D4
+Text GLabel 21200 16700 0    31   Input ~ 0
+D5
+Text GLabel 21200 16800 0    31   Input ~ 0
+D6
+Text GLabel 21200 16900 0    31   Input ~ 0
+D7
+Wire Wire Line
+	21200 16900 21300 16900
+Wire Wire Line
+	21300 16800 21200 16800
+Wire Wire Line
+	21200 16700 21300 16700
+Wire Wire Line
+	21300 16600 21200 16600
+Text GLabel 4050 5100 2    31   Output ~ 0
+D0
+Wire Wire Line
+	4050 5100 3100 5100
+Wire Wire Line
+	1250 7550 1250 4400
+Wire Wire Line
+	1250 4400 2000 4400
+Connection ~ 1250 7550
+Wire Wire Line
+	1250 7550 2000 7550
+Wire Wire Line
+	1300 7650 1300 4500
+Wire Wire Line
+	1300 4500 2000 4500
+Connection ~ 1300 7650
+Wire Wire Line
+	1300 7650 1150 7650
+Wire Wire Line
+	1350 7750 1350 4600
+Wire Wire Line
+	1350 4600 2000 4600
+Connection ~ 1350 7750
+Wire Wire Line
+	1350 7750 2000 7750
+Wire Wire Line
+	1400 7850 1400 4700
+Wire Wire Line
+	1400 4700 2000 4700
+Connection ~ 1400 7850
+Wire Wire Line
+	1400 7850 1150 7850
+Wire Wire Line
+	1450 7950 1450 4800
+Wire Wire Line
+	1450 4800 2000 4800
+Connection ~ 1450 7950
+Wire Wire Line
+	1450 7950 2000 7950
+Wire Wire Line
+	1500 8050 1500 4900
+Wire Wire Line
+	1500 4900 2000 4900
+Connection ~ 1500 8050
+Wire Wire Line
+	1500 8050 1150 8050
+Wire Wire Line
+	1550 8150 1550 5000
+Wire Wire Line
+	1550 5000 2000 5000
+Connection ~ 1550 8150
+Wire Wire Line
+	1550 8150 2000 8150
+Wire Wire Line
+	1600 8250 1600 5100
+Wire Wire Line
+	1600 5100 2000 5100
+Connection ~ 1600 8250
+Wire Wire Line
+	1600 8250 2000 8250
+Text GLabel 4050 5000 2    31   Output ~ 0
+D1
+Wire Wire Line
+	4050 5000 3150 5000
+Text GLabel 4050 4900 2    31   Output ~ 0
+D2
+Wire Wire Line
+	4050 4900 3200 4900
+Text GLabel 4050 4800 2    31   Output ~ 0
+D3
+Wire Wire Line
+	4050 4800 3250 4800
+Text GLabel 4050 4700 2    31   Output ~ 0
+D4
+Wire Wire Line
+	4050 4700 3300 4700
+Text GLabel 4050 4600 2    31   Output ~ 0
+D5
+Wire Wire Line
+	4050 4600 3350 4600
+Text GLabel 4050 4500 2    31   Output ~ 0
+D6
+Wire Wire Line
+	4050 4500 3400 4500
+Text GLabel 4050 4400 2    31   Output ~ 0
+D7
+Wire Wire Line
+	4050 4400 3450 4400
+Text GLabel 13800 11400 1    31   Input ~ 0
+D0
+Text GLabel 13700 11400 1    31   Input ~ 0
+D1
+Text GLabel 13600 11400 1    31   Input ~ 0
+D2
+Text GLabel 13500 11400 1    31   Input ~ 0
+D3
+Text GLabel 13400 11400 1    31   Input ~ 0
+D4
+Text GLabel 13300 11400 1    31   Input ~ 0
+D5
+Text GLabel 13200 11400 1    31   Input ~ 0
+D6
+Text GLabel 13100 11400 1    31   Input ~ 0
+D7
+Wire Wire Line
+	3100 5100 3100 5950
+Connection ~ 3100 5100
+Wire Wire Line
+	3100 5100 3000 5100
+Wire Wire Line
+	3150 5000 3150 6050
+Connection ~ 3150 5000
+Wire Wire Line
+	3150 5000 3000 5000
+Wire Wire Line
+	3200 6150 3200 4900
+Connection ~ 3200 4900
+Wire Wire Line
+	3200 4900 3000 4900
+Wire Wire Line
+	3250 4800 3250 6250
+Connection ~ 3250 4800
+Wire Wire Line
+	3250 4800 3000 4800
+Wire Wire Line
+	3300 6350 3300 4700
+Connection ~ 3300 4700
+Wire Wire Line
+	3300 4700 3000 4700
+Wire Wire Line
+	3350 4600 3350 6450
+Connection ~ 3350 4600
+Wire Wire Line
+	3350 4600 3000 4600
+Wire Wire Line
+	3400 6550 3400 4500
+Connection ~ 3400 4500
+Wire Wire Line
+	3400 4500 3000 4500
+Wire Wire Line
+	3450 4400 3450 6650
+Connection ~ 3450 4400
+Wire Wire Line
+	3450 4400 3000 4400
+Wire Wire Line
+	3550 5950 3100 5950
+Wire Wire Line
+	3150 6050 3550 6050
+Wire Wire Line
+	3200 6150 3550 6150
+Wire Wire Line
+	3550 6250 3250 6250
+Wire Wire Line
+	3300 6350 3550 6350
+Wire Wire Line
+	3550 6450 3350 6450
+Wire Wire Line
+	3400 6550 3550 6550
+Wire Wire Line
+	3450 6650 3550 6650
+Text GLabel 4950 5950 2    31   Input ~ 0
+DRAM_OUT0
+Text GLabel 4950 6050 2    31   Input ~ 0
+DRAM_OUT1
+Text GLabel 4950 6150 2    31   Input ~ 0
+DRAM_OUT2
+Text GLabel 4950 6250 2    31   Input ~ 0
+DRAM_OUT3
+Text GLabel 4950 6350 2    31   Input ~ 0
+DRAM_OUT4
+Text GLabel 4950 6450 2    31   Input ~ 0
+DRAM_OUT5
+Text GLabel 4950 6550 2    31   Input ~ 0
+DRAM_OUT6
+Text GLabel 4950 6650 2    31   Input ~ 0
+DRAM_OUT7
+Wire Wire Line
+	4550 5950 4950 5950
+Wire Wire Line
+	4950 6050 4550 6050
+Wire Wire Line
+	4550 6150 4950 6150
+Wire Wire Line
+	4950 6250 4550 6250
+Wire Wire Line
+	4550 6350 4950 6350
+Wire Wire Line
+	4950 6650 4550 6650
+Wire Wire Line
+	4550 6550 4950 6550
+Wire Wire Line
+	4950 6450 4550 6450
+$Comp
+L Logic_74xx:74LS157 U?
+U 1 1 69581039
+P 6500 6850
+F 0 "U?" H 6500 7928 50  0000 C CNN
+F 1 "74LS157" H 6500 7837 50  0000 C CNN
+F 2 "" H 6500 6850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 6500 6850 50  0001 C CNN
+	1    6500 6850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
