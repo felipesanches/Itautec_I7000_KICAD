@@ -9,6 +9,14 @@ $CMP 8279
 D PROGRAMMABLE KEYBOARD/DISPLAY INTERFACE
 $ENDCMP
 #
+$CMP AM26LS31PC
+D Quad High Speed Differential Line Driver
+$ENDCMP
+#
+$CMP AM26LS32PC
+D AM26LS32PC - Quad Differential Line Receivers
+$ENDCMP
+#
 $CMP MCM6665A
 D 64k x 1bit Dynamic RAM
 $ENDCMP

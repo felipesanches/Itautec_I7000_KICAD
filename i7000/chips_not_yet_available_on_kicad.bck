@@ -9,6 +9,14 @@ $CMP 8279
 D PROGRAMMABLE KEYBOARD/DISPLAY INTERFACE
 $ENDCMP
 #
+$CMP AM26LS32PC
+D AM26LS32PC - Quad Differential Line Receivers
+$ENDCMP
+#
+$CMP MCM6665A
+D 64k x 1bit Dynamic RAM
+$ENDCMP
+#
 $CMP NSC800
 D NSC800 - High-Performance Low-Power CMOS Microprocessor
 $ENDCMP
