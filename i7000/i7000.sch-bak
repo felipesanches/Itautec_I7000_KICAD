@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:i7000-cache
+EELAYER 26 0
 EELAYER END
 $Descr A0 46811 33110
 encoding utf-8
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L i7000-rescue:8253-intel F02
+L intel:8253 F02
 U 1 1 5FB194AE
 P 22650 3200
 F 0 "F02" H 22650 4378 50  0000 C CNN
@@ -25,7 +26,7 @@ F 3 "http://www.cpcwiki.eu/imgs/e/e3/8253.pdf" H 22200 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:8255A-intel F03
+L intel:8255A F03
 U 1 1 5FB1AC76
 P 25700 3100
 F 0 "F03" H 25700 4878 50  0000 C CNN
@@ -42,7 +43,7 @@ Wire Wire Line
 Text GLabel 22050 24000 2    31   Output ~ 0
 ~PIT8253_CS
 $Comp
-L i7000-rescue:74LS138-Logic_74xx F07
+L Logic_74xx:74LS138 F07
 U 1 1 5FB1B0C2
 P 21500 23700
 F 0 "F07" H 21500 24478 50  0000 C CNN
@@ -69,7 +70,7 @@ Text GLabel 24850 2100 0    31   Input ~ 0
 Wire Wire Line
 	24850 2100 25000 2100
 $Comp
-L i7000-rescue:74LS139-Logic_74xx F13
+L Logic_74xx:74LS139 F13
 U 2 1 5FB1CB00
 P 20350 22900
 F 0 "F13" H 20350 23267 50  0000 C CNN
@@ -88,7 +89,7 @@ Wire Wire Line
 Text GLabel 35600 7700 3    31   Input ~ 0
 ~KBDC_CS
 $Comp
-L i7000-rescue:74LS32-Logic_74xx G32
+L Logic_74xx:74LS32 G32
 U 2 1 5FB1DF07
 P 26700 6950
 F 0 "G32" H 26700 7275 50  0000 C CNN
@@ -99,7 +100,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 26700 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS08-Logic_74xx G31
+L Logic_74xx:74LS08 G31
 U 1 1 5FB1E06C
 P 29500 22700
 F 0 "G31" H 29500 23025 50  0000 C CNN
@@ -114,7 +115,7 @@ Text GLabel 29900 22700 2    31   Output ~ 0
 Wire Wire Line
 	26350 6850 26400 6850
 $Comp
-L i7000-rescue:74LS08-Logic_74xx G31
+L Logic_74xx:74LS08 G31
 U 2 1 5FB1E67D
 P 29500 23400
 F 0 "G31" H 29500 23725 50  0000 C CNN
@@ -125,7 +126,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 29500 23400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS08-Logic_74xx G31
+L Logic_74xx:74LS08 G31
 U 3 1 5FB1E6D3
 P 29500 24050
 F 0 "G31" H 29500 24375 50  0000 C CNN
@@ -149,7 +150,7 @@ Connection ~ 29050 23300
 Text GLabel 29900 23400 2    31   Output ~ 0
 ~GFX_SRAM2_CS
 $Comp
-L i7000-rescue:74LS157-Logic_74xx G06
+L Logic_74xx:74LS157 G06
 U 1 1 5FB1F319
 P 26700 22800
 F 0 "G06" H 26700 23878 50  0000 C CNN
@@ -162,7 +163,7 @@ $EndComp
 Wire Wire Line
 	27200 22800 28150 22800
 $Comp
-L i7000-rescue:74LS04-Logic_74xx G30
+L Logic_74xx:74LS04 G30
 U 6 1 5FB200D8
 P 28550 23500
 F 0 "G30" H 28550 23817 50  0000 C CNN
@@ -183,7 +184,7 @@ Wire Wire Line
 	28150 22800 29200 22800
 Connection ~ 29050 22600
 $Comp
-L i7000-rescue:74LS04-Logic_74xx G30
+L Logic_74xx:74LS04 G30
 U 5 1 5FB21400
 P 28500 22600
 F 0 "G30" H 28500 22917 50  0000 C CNN
@@ -202,7 +203,7 @@ Wire Wire Line
 Wire Wire Line
 	27850 22600 28200 22600
 $Comp
-L i7000-rescue:74LS08-Logic_74xx G31
+L Logic_74xx:74LS08 G31
 U 4 1 5FB22469
 P 29500 24700
 F 0 "G31" H 29500 25025 50  0000 C CNN
@@ -219,7 +220,7 @@ Wire Wire Line
 Wire Wire Line
 	29050 24600 29200 24600
 $Comp
-L i7000-rescue:74LS32-Logic_74xx G32
+L Logic_74xx:74LS32 G32
 U 4 1 5FB22B71
 P 29500 25450
 F 0 "G32" H 29500 25775 50  0000 C CNN
@@ -242,7 +243,7 @@ Wire Wire Line
 	29050 25550 28750 25550
 Connection ~ 29050 25550
 $Comp
-L i7000-rescue:74LS139-Logic_74xx F13
+L Logic_74xx:74LS139 F13
 U 1 1 5FB24A81
 P 23000 23300
 F 0 "F13" H 23000 23667 50  0000 C CNN
@@ -253,7 +254,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS139" H 23000 23300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS04-Logic_74xx G33
+L Logic_74xx:74LS04 G33
 U 6 1 5FB2549F
 P 24100 23400
 F 0 "G33" H 24100 23717 50  0000 C CNN
@@ -266,7 +267,7 @@ $EndComp
 Wire Wire Line
 	23800 23400 23500 23400
 $Comp
-L i7000-rescue:74LS74-Logic_74xx G27
+L Logic_74xx:74LS74 G27
 U 2 1 5FB26970
 P 25050 23400
 F 0 "G27" H 25200 23750 50  0000 C CNN
@@ -279,7 +280,7 @@ $EndComp
 Wire Wire Line
 	24400 23400 24750 23400
 $Comp
-L i7000-rescue:74LS00-Logic_74xx F15
+L Logic_74xx:74LS00 F15
 U 2 1 5FB29DFC
 P 19450 23100
 F 0 "F15" H 19450 22783 50  0000 C CNN
@@ -294,7 +295,7 @@ Wire Wire Line
 Wire Wire Line
 	22000 23500 22500 23500
 $Comp
-L i7000-rescue:74LS00-Logic_74xx F15
+L Logic_74xx:74LS00 F15
 U 1 1 5FB2EBFF
 P 19450 23900
 F 0 "F15" H 19450 24225 50  0000 C CNN
@@ -311,7 +312,7 @@ Wire Wire Line
 Wire Wire Line
 	18900 23200 19150 23200
 $Comp
-L i7000-rescue:74LS27-Logic_74xx F14
+L Logic_74xx:74LS27 F14
 U 1 1 5FB30CB9
 P 18500 23550
 F 0 "F14" H 18500 23875 50  0000 C CNN
@@ -322,7 +323,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 18500 23550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS08-Logic_74xx F16
+L Logic_74xx:74LS08 F16
 U 2 1 5FB32BB3
 P 17450 23450
 F 0 "F16" H 17450 23775 50  0000 C CNN
@@ -335,7 +336,7 @@ $EndComp
 Wire Wire Line
 	17750 23450 18200 23450
 $Comp
-L i7000-rescue:74LS157-Logic_74xx G03
+L Logic_74xx:74LS157 G03
 U 1 1 5FB34BFB
 P 21850 9650
 F 0 "G03" H 21850 10728 50  0000 C CNN
@@ -350,7 +351,7 @@ Wire Wire Line
 Text GLabel 21200 9650 0    31   Input ~ 0
 A7
 $Comp
-L i7000-rescue:74LS27-Logic_74xx F14
+L Logic_74xx:74LS27 F14
 U 2 1 5FB3F009
 P 18500 23000
 F 0 "F14" H 18500 23325 50  0000 C CNN
@@ -363,7 +364,7 @@ $EndComp
 Wire Wire Line
 	18200 22900 18100 22900
 $Comp
-L i7000-rescue:74LS04-Logic_74xx E28
+L Logic_74xx:74LS04 E28
 U 6 1 5FB4688A
 P 5300 8550
 F 0 "E28" H 5300 8867 50  0000 C CNN
@@ -405,7 +406,7 @@ A4
 Wire Wire Line
 	18100 23100 18200 23100
 $Comp
-L i7000-rescue:Conn_02x30_Counter_Clockwise-Connector CN04
+L Connector:Conn_02x30_Counter_Clockwise CN04
 U 1 1 5FB7A9B2
 P 2500 17000
 F 0 "CN04" H 2550 18617 50  0000 C CNN
@@ -578,7 +579,7 @@ A5
 Wire Wire Line
 	2300 17400 2300 17300
 $Comp
-L i7000-rescue:74LS153-Logic_74xx E11
+L Logic_74xx:74LS153 E11
 U 1 1 5FC93D59
 P 16500 14150
 F 0 "E11" H 16500 15328 50  0000 C CNN
@@ -593,7 +594,7 @@ DRAM_CTRL_AH6
 Wire Wire Line
 	17250 13450 17000 13450
 $Comp
-L i7000-rescue:74LS273-Logic_74xx E09
+L Logic_74xx:74LS273 E09
 U 1 1 5FCA2852
 P 15350 12550
 F 0 "E09" V 15304 13391 50  0000 L CNN
@@ -604,7 +605,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS273" H 15350 12550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i7000-rescue:74LS273-Logic_74xx E10
+L Logic_74xx:74LS273 E10
 U 1 1 5FCA9748
 P 13300 12550
 F 0 "E10" V 13254 13391 50  0000 L CNN
@@ -651,7 +652,7 @@ A5
 Wire Wire Line
 	4900 8550 5000 8550
 $Comp
-L i7000-rescue:74LS257-Logic_74xx E08
+L Logic_74xx:74LS257 E08
 U 1 1 5FD297F1
 P 7800 11650
 F 0 "E08" H 7800 12728 50  0000 C CNN
@@ -711,7 +712,7 @@ Wire Wire Line
 	6900 11050 7100 11050
 Connection ~ 7100 11050
 $Comp
-L i7000-rescue:74LS04-Logic_74xx E27
+L Logic_74xx:74LS04 E27
 U 6 1 5FD6CB09
 P 4700 12450
 F 0 "E27" H 4700 12767 50  0000 C CNN
@@ -722,7 +723,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4700 12450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS74-Logic_74xx E26
+L Logic_74xx:74LS74 E26
 U 2 1 5FD6CE20
 P 5650 12450
 F 0 "E26" H 5650 12928 50  0000 C CNN
@@ -765,7 +766,7 @@ A10
 Text GLabel 34800 10850 0    31   Input ~ 0
 A9
 $Comp
-L i7000-rescue:74LS32-Logic_74xx E36
+L Logic_74xx:74LS32 E36
 U 2 1 5FDB5C3D
 P 29800 15550
 F 0 "E36" H 29800 15875 50  0000 C CNN
@@ -780,7 +781,7 @@ Text GLabel 30250 15550 2    31   Output ~ 0
 Wire Wire Line
 	30100 15550 30250 15550
 $Comp
-L i7000-rescue:74LS138-Logic_74xx E13
+L Logic_74xx:74LS138 E13
 U 1 1 5FDCA27A
 P 30050 16700
 F 0 "E13" H 30050 17478 50  0000 C CNN
@@ -808,7 +809,7 @@ Text GLabel 28750 15450 0    31   Input ~ 0
 Wire Wire Line
 	28750 15450 29500 15450
 $Comp
-L i7000-rescue:74LS20-Logic_74xx G29
+L Logic_74xx:74LS20 G29
 U 1 1 5FE15D77
 P 7500 13500
 F 0 "G29" H 7500 13875 50  0000 C CNN
@@ -823,7 +824,7 @@ Text GLabel 7100 13650 0    31   Input ~ 0
 Wire Wire Line
 	7100 13650 7200 13650
 $Comp
-L i7000-rescue:74LS245-Logic_74xx G10
+L Logic_74xx:74LS245 G10
 U 1 1 5FE24817
 P 27850 6450
 F 0 "G10" H 27850 7428 50  0000 C CNN
@@ -834,7 +835,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 27850 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS245-Logic_74xx G11
+L Logic_74xx:74LS245 G11
 U 1 1 5FE248A1
 P 27850 8650
 F 0 "G11" H 27850 9628 50  0000 C CNN
@@ -863,7 +864,7 @@ DRAM_CTRL_B0
 Wire Wire Line
 	29450 16600 29550 16600
 $Comp
-L i7000-rescue:74LS32-Logic_74xx E32
+L Logic_74xx:74LS32 E32
 U 3 1 5FE4D6D7
 P 29800 14900
 F 0 "E32" H 29800 15225 50  0000 C CNN
@@ -885,7 +886,7 @@ Wire Wire Line
 Text GLabel 4750 16700 1    31   Input ~ 0
 CN05_14
 $Comp
-L i7000-rescue:Conn_02x07_Counter_Clockwise-Connector CN05
+L Connector:Conn_02x07_Counter_Clockwise CN05
 U 1 1 5FE854C0
 P 5050 17150
 F 0 "CN05" H 5100 17667 50  0000 C CNN
@@ -918,7 +919,7 @@ CN04_43
 Wire Wire Line
 	2200 17400 2200 17300
 $Comp
-L i7000-rescue:74LS373-Logic_74xx E06
+L Logic_74xx:74LS373 E06
 U 1 1 608B8149
 P 2700 10050
 F 0 "E06" H 2700 11028 50  0000 C CNN
@@ -1029,7 +1030,7 @@ A0
 Wire Wire Line
 	3350 10250 3200 10250
 $Comp
-L i7000-rescue:8202A-chips_not_yet_available_on_kicad E02
+L chips_not_yet_available_on_kicad:8202A E02
 U 1 1 60D34F91
 P 35600 11100
 F 0 "E02" H 35950 12450 31  0000 C CNN
@@ -1096,7 +1097,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 10150 3200 10150
 $Comp
-L i7000-rescue:74LS373-Logic_74xx E05
+L Logic_74xx:74LS373 E05
 U 1 1 610F3C11
 P 2700 8100
 F 0 "E05" H 2700 9078 50  0000 C CNN
@@ -1226,7 +1227,7 @@ E11_pin9_Zb
 Wire Wire Line
 	17300 14150 17000 14150
 $Comp
-L i7000-rescue:74LS374-Logic_74xx E15
+L Logic_74xx:74LS374 E15
 U 1 1 6170916A
 P 4050 6450
 F 0 "E15" V 4004 7291 50  0000 L CNN
@@ -1309,7 +1310,7 @@ Connection ~ 13100 11550
 Wire Wire Line
 	13100 11550 13100 11400
 $Comp
-L i7000-rescue:74LS04-Logic_74xx E29
+L Logic_74xx:74LS04 E29
 U 4 1 61C4945C
 P 6500 1950
 F 0 "E29" H 6500 2267 50  0000 C CNN
@@ -1320,7 +1321,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 6500 1950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L i7000-rescue:74LS04-Logic_74xx E29
+L Logic_74xx:74LS04 E29
 U 5 1 61C7DFC5
 P 5650 1950
 F 0 "E29" H 5650 2267 50  0000 C CNN
@@ -1338,7 +1339,7 @@ Wire Wire Line
 	14850 11950 14850 12050
 Connection ~ 12800 11950
 $Comp
-L i7000-rescue:74LS32-Logic_74xx E32
+L Logic_74xx:74LS32 E32
 U 1 1 61E21137
 P 29800 14250
 F 0 "E32" H 29800 14575 50  0000 C CNN
@@ -1362,7 +1363,7 @@ CN04_34
 Wire Wire Line
 	7150 12350 7300 12350
 $Comp
-L i7000-rescue:NSC800-chips_not_yet_available_on_kicad E01
+L chips_not_yet_available_on_kicad:NSC800 E01
 U 1 1 61F6CA9C
 P 4450 1900
 F 0 "E01" H 4150 2600 31  0000 C CNN
@@ -1373,7 +1374,7 @@ F 3 "" H 4200 2500 31  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:M5L8279P-5-chips_not_yet_available_on_kicad F01
+L chips_not_yet_available_on_kicad:M5L8279P-5 F01
 U 1 1 620B6BC7
 P 36450 6950
 F 0 "F01" V 36250 5400 31  0000 R CNN
@@ -1386,7 +1387,7 @@ $EndComp
 Wire Wire Line
 	35600 7700 35600 7550
 $Comp
-L i7000-rescue:TMP8251AP-chips_not_yet_available_on_kicad F04
+L chips_not_yet_available_on_kicad:TMP8251AP F04
 U 1 1 622E056F
 P 41600 6600
 F 0 "F04" H 41350 7500 31  0000 C CNN
@@ -1397,7 +1398,7 @@ F 3 "" H 41850 7450 31  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i7000-rescue:8259A-intel E03
+L intel:8259A E03
 U 1 1 629373E3
 P 29950 7300
 F 0 "E03" H 29650 8350 50  0000 C CNN
@@ -1420,7 +1421,7 @@ Text GLabel 29150 7600 0    31   Input ~ 0
 Wire Wire Line
 	29150 7600 29350 7600
 $Comp
-L i7000-rescue:74LS245-Logic_74xx E07
+L Logic_74xx:74LS245 E07
 U 1 1 62ACF18E
 P 2500 4900
 F 0 "E07" H 2300 5600 50  0000 C CNN
@@ -1562,7 +1563,7 @@ $EndComp
 Wire Wire Line
 	36350 11000 36250 11000
 $Comp
-L i7000-rescue:74LS32-Logic_74xx E32
+L Logic_74xx:74LS32 E32
 U 2 1 662ECDB1
 P 29800 12950
 F 0 "E32" H 29800 13275 50  0000 C CNN
@@ -1573,7 +1574,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 29800 12950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS32-Logic_74xx E32
+L Logic_74xx:74LS32 E32
 U 4 1 662ED06C
 P 29800 13600
 F 0 "E32" H 29800 13925 50  0000 C CNN
@@ -1595,7 +1596,7 @@ Connection ~ 29300 12850
 Text GLabel 29150 12850 0    31   Input ~ 0
 DRAM_CTRL_B0
 $Comp
-L i7000-rescue:74LS153-Logic_74xx E12
+L Logic_74xx:74LS153 E12
 U 1 1 663CB31C
 P 16500 16850
 F 0 "E12" H 16500 18028 50  0000 C CNN
@@ -1932,7 +1933,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 6450 4550 6450
 $Comp
-L i7000-rescue:MCM6665A-chips_not_yet_available_on_kicad E16
+L chips_not_yet_available_on_kicad:MCM6665A E16
 U 1 1 695F4C95
 P 38150 9350
 F 0 "E16" H 37900 9850 31  0000 C CNN
@@ -1943,7 +1944,7 @@ F 3 "" H 38200 9350 31  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:MCM6665A-chips_not_yet_available_on_kicad E20
+L chips_not_yet_available_on_kicad:MCM6665A E20
 U 1 1 69745EE9
 P 38150 13450
 F 0 "E20" H 37900 13950 31  0000 C CNN
@@ -2002,7 +2003,7 @@ Wire Wire Line
 Wire Wire Line
 	37200 9700 37650 9700
 $Comp
-L i7000-rescue:MCM6665A-chips_not_yet_available_on_kicad E17
+L chips_not_yet_available_on_kicad:MCM6665A E17
 U 1 1 69CAAB34
 P 40200 9350
 F 0 "E17" H 39950 9850 31  0000 C CNN
@@ -2013,7 +2014,7 @@ F 3 "" H 40250 9350 31  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:MCM6665A-chips_not_yet_available_on_kicad E21
+L chips_not_yet_available_on_kicad:MCM6665A E21
 U 1 1 69CAAB3A
 P 40200 13450
 F 0 "E21" H 39950 13950 31  0000 C CNN
@@ -2136,7 +2137,7 @@ Connection ~ 37200 10550
 Wire Wire Line
 	37200 10550 37200 9700
 $Comp
-L i7000-rescue:MCM6665A-chips_not_yet_available_on_kicad E18
+L chips_not_yet_available_on_kicad:MCM6665A E18
 U 1 1 6A2178AE
 P 42200 9350
 F 0 "E18" H 41950 9850 31  0000 C CNN
@@ -2147,7 +2148,7 @@ F 3 "" H 42250 9350 31  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:MCM6665A-chips_not_yet_available_on_kicad E22
+L chips_not_yet_available_on_kicad:MCM6665A E22
 U 1 1 6A2178B4
 P 42200 13450
 F 0 "E22" H 41950 13950 31  0000 C CNN
@@ -2206,7 +2207,7 @@ Wire Wire Line
 Wire Wire Line
 	41250 9700 41700 9700
 $Comp
-L i7000-rescue:MCM6665A-chips_not_yet_available_on_kicad E19
+L chips_not_yet_available_on_kicad:MCM6665A E19
 U 1 1 6A2178D2
 P 44250 9350
 F 0 "E19" H 44000 9850 31  0000 C CNN
@@ -2217,7 +2218,7 @@ F 3 "" H 44300 9350 31  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:MCM6665A-chips_not_yet_available_on_kicad E23
+L chips_not_yet_available_on_kicad:MCM6665A E23
 U 1 1 6A2178D8
 P 44250 13450
 F 0 "E23" H 44000 13950 31  0000 C CNN
@@ -2676,7 +2677,7 @@ Wire Wire Line
 Wire Wire Line
 	38800 9650 38800 11050
 $Comp
-L i7000-rescue:74LS157-Logic_74xx E14
+L Logic_74xx:74LS157 E14
 U 1 1 6BE45E24
 P 31200 12550
 F 0 "E14" H 30950 13300 50  0000 C CNN
@@ -2780,7 +2781,7 @@ Connection ~ 29300 15000
 Wire Wire Line
 	29300 15000 29100 15000
 $Comp
-L i7000-rescue:74LS32-Logic_74xx G32
+L Logic_74xx:74LS32 G32
 U 3 1 605B0CDC
 P 26700 9150
 F 0 "G32" H 26700 9475 50  0000 C CNN
@@ -2810,7 +2811,7 @@ Wire Wire Line
 Wire Wire Line
 	26300 9050 26400 9050
 $Comp
-L i7000-rescue:74LS32-Logic_74xx G32
+L Logic_74xx:74LS32 G32
 U 1 1 613FBC36
 P 25900 8000
 F 0 "G32" H 25900 8325 50  0000 C CNN
@@ -2830,7 +2831,7 @@ Wire Wire Line
 	26300 9050 26300 8000
 Connection ~ 26300 8000
 $Comp
-L i7000-rescue:74LS157-Logic_74xx G02
+L Logic_74xx:74LS157 G02
 U 1 1 61BDCA0F
 P 23300 9650
 F 0 "G02" H 23300 10728 50  0000 C CNN
@@ -2841,7 +2842,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 23300 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS157-Logic_74xx G04
+L Logic_74xx:74LS157 G04
 U 1 1 61C94ECD
 P 23300 7000
 F 0 "G04" H 23450 7800 50  0000 C CNN
@@ -2852,7 +2853,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 23300 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS157-Logic_74xx G05
+L Logic_74xx:74LS157 G05
 U 1 1 61C94FCB
 P 21850 7000
 F 0 "G05" H 22000 8150 50  0000 C CNN
@@ -2893,7 +2894,7 @@ CN04_20
 Wire Wire Line
 	2000 16700 2000 16800
 $Comp
-L i7000-rescue:2732-memory E04
+L memory:2732 E04
 U 1 1 60947402
 P 5250 9950
 F 0 "E04" H 5250 10928 50  0000 C CNN
@@ -2976,7 +2977,7 @@ DRAM_OUT5
 Wire Wire Line
 	40700 13200 40900 13200
 $Comp
-L i7000-rescue:2732-memory G14
+L memory:2732 G14
 U 1 1 61AF5F34
 P 4100 20600
 F 0 "G14" H 4350 21500 50  0000 C CNN
@@ -2987,7 +2988,7 @@ F 3 "" H 4100 20600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS20-Logic_74xx G29
+L Logic_74xx:74LS20 G29
 U 2 1 61AF6964
 P 21700 22300
 F 0 "G29" H 21700 22350 50  0000 C CNN
@@ -2998,7 +2999,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS20" H 21700 22300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:MC6845-motorola G01
+L motorola:MC6845 G01
 U 1 1 61BD9A1B
 P 8900 21100
 F 0 "G01" H 8900 22678 50  0000 C CNN
@@ -3053,7 +3054,7 @@ RA2
 Wire Wire Line
 	21200 22350 21400 22350
 $Comp
-L i7000-rescue:74LS32-Logic_74xx G34
+L Logic_74xx:74LS32 G34
 U 2 1 622C0AF7
 P 25100 22300
 F 0 "G34" H 25100 22625 50  0000 C CNN
@@ -3068,7 +3069,7 @@ RA3
 Wire Wire Line
 	24650 22400 24800 22400
 $Comp
-L i7000-rescue:74LS86-Logic_74xx G36
+L Logic_74xx:74LS86 G36
 U 1 1 6233919B
 P 24300 22200
 F 0 "G36" H 24300 22525 50  0000 C CNN
@@ -3081,7 +3082,7 @@ $EndComp
 Wire Wire Line
 	24600 22200 24800 22200
 $Comp
-L i7000-rescue:74LS08-Logic_74xx G35
+L Logic_74xx:74LS08 G35
 U 1 1 624A2479
 P 23350 22100
 F 0 "G35" H 23350 22425 50  0000 C CNN
@@ -3094,7 +3095,7 @@ $EndComp
 Wire Wire Line
 	23650 22100 24000 22100
 $Comp
-L i7000-rescue:74LS32-Logic_74xx G34
+L Logic_74xx:74LS32 G34
 U 1 1 6260D4C3
 P 28400 26850
 F 0 "G34" H 28600 26600 50  0000 C CNN
@@ -3105,7 +3106,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 28400 26850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS86-Logic_74xx G36
+L Logic_74xx:74LS86 G36
 U 3 1 6260D75C
 P 29100 26750
 F 0 "G36" H 29100 27075 50  0000 C CNN
@@ -3116,7 +3117,7 @@ F 3 "74xx/74ls86.pdf" H 29100 26750 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L i7000-rescue:74LS08-Logic_74xx G35
+L Logic_74xx:74LS08 G35
 U 2 1 62779A2A
 P 26700 27150
 F 0 "G35" H 26700 27475 50  0000 C CNN
@@ -3136,7 +3137,7 @@ Wire Wire Line
 	26200 27250 26000 27250
 Connection ~ 26200 27250
 $Comp
-L i7000-rescue:74LS86-Logic_74xx G36
+L Logic_74xx:74LS86 G36
 U 2 1 62963E64
 P 29050 27450
 F 0 "G36" H 29050 27133 50  0000 C CNN
@@ -3206,7 +3207,7 @@ Wire Wire Line
 Text Notes 950  18200 0    50   ~ 0
 FIXME: The pinout of this symbol does not match its footprint on kicad_pcb
 $Comp
-L i7000-rescue:74LS244-Logic_74xx G13
+L Logic_74xx:74LS244 G13
 U 1 1 632BFFA1
 P 4050 22700
 F 0 "G13" H 4300 23500 50  0000 C CNN
@@ -3217,7 +3218,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS244" H 4050 22700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS273-Logic_74xx G09
+L Logic_74xx:74LS273 G09
 U 1 1 63637DD1
 P 1650 20700
 F 0 "G09" H 1850 21450 50  0000 C CNN
@@ -3348,7 +3349,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 22900 4550 22900
 $Comp
-L i7000-rescue:74LS166-Logic_74xx G18
+L Logic_74xx:74LS166 G18
 U 1 1 651F5BA6
 P 6300 20500
 F 0 "G18" H 6450 21450 50  0000 L CNN
@@ -3385,7 +3386,7 @@ Connection ~ 4900 20600
 Wire Wire Line
 	25350 23500 26200 23500
 $Comp
-L i7000-rescue:74LS74-Logic_74xx G28
+L Logic_74xx:74LS74 G28
 U 2 1 60F9D65C
 P 25050 24550
 F 0 "G28" H 25200 24900 50  0000 C CNN
@@ -3409,7 +3410,7 @@ Connection ~ 24600 23000
 Wire Wire Line
 	24600 23000 24500 23000
 $Comp
-L i7000-rescue:74LS74-Logic_74xx G28
+L Logic_74xx:74LS74 G28
 U 1 1 610E8275
 P 25050 25650
 F 0 "G28" H 25200 26000 50  0000 C CNN
@@ -3427,7 +3428,7 @@ Wire Wire Line
 	25050 25250 25050 25350
 Connection ~ 24600 24100
 $Comp
-L i7000-rescue:74LS04-Logic_74xx G30
+L Logic_74xx:74LS04 G30
 U 4 1 612DCBB3
 P 7250 1950
 F 0 "G30" H 7250 1650 50  0000 C CNN
@@ -3512,7 +3513,7 @@ A5
 Wire Wire Line
 	4400 9750 4550 9750
 $Comp
-L i7000-rescue:74LS04-Logic_74xx G33
+L Logic_74xx:74LS04 G33
 U 1 1 64377ADD
 P 22450 22000
 F 0 "G33" H 22450 22317 50  0000 C CNN
@@ -3531,7 +3532,7 @@ Wire Wire Line
 Wire Wire Line
 	22650 22200 23050 22200
 $Comp
-L i7000-rescue:74LS374-Logic_74xx G15
+L Logic_74xx:74LS374 G15
 U 1 1 645935DF
 P 22750 17800
 F 0 "G15" H 22750 18778 50  0000 C CNN
@@ -3560,7 +3561,7 @@ CHARGEN_SERIAL_OUT
 Wire Wire Line
 	22150 22000 22000 22000
 $Comp
-L i7000-rescue:74LS174-Logic_74xx G23
+L Logic_74xx:74LS174 G23
 U 1 1 64E194A1
 P 18450 19100
 F 0 "G23" H 18450 19978 50  0000 C CNN
@@ -3581,7 +3582,7 @@ FF_23.2
 Wire Wire Line
 	23850 22300 24000 22300
 $Comp
-L i7000-rescue:74LS374-Logic_74xx G16
+L Logic_74xx:74LS374 G16
 U 1 1 65043590
 P 25000 17800
 F 0 "G16" H 25000 18778 50  0000 C CNN
@@ -3592,7 +3593,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS374" H 25000 17800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS374-Logic_74xx G17
+L Logic_74xx:74LS374 G17
 U 1 1 6526C124
 P 26800 17800
 F 0 "G17" H 26800 18778 50  0000 C CNN
@@ -3623,7 +3624,7 @@ G30.6_CLK
 Wire Wire Line
 	24450 25650 24750 25650
 $Comp
-L i7000-rescue:74LS04-Logic_74xx G30
+L Logic_74xx:74LS04 G30
 U 2 1 65EA8D52
 P 43750 30450
 F 0 "G30" H 43750 30767 50  0000 C CNN
@@ -3634,7 +3635,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 43750 30450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS04-Logic_74xx G30
+L Logic_74xx:74LS04 G30
 U 3 1 65F61E5D
 P 44600 30450
 F 0 "G30" H 44600 30767 50  0000 C CNN
@@ -3647,7 +3648,7 @@ $EndComp
 Wire Wire Line
 	26000 27050 26400 27050
 $Comp
-L i7000-rescue:Conn_02x08_Counter_Clockwise-Connector G19
+L Connector:Conn_02x08_Counter_Clockwise G19
 U 1 1 6682042F
 P 30050 27150
 F 0 "G19" H 30100 27550 50  0000 C CNN
@@ -3662,7 +3663,7 @@ Wire Wire Line
 Text Notes 30450 27750 2    50   ~ 10
 G19 not installed
 $Comp
-L i7000-rescue:74LS174-Logic_74xx G22
+L Logic_74xx:74LS174 G22
 U 1 1 66EC14F2
 P 20200 19100
 F 0 "G22" H 20200 19978 50  0000 C CNN
@@ -3681,7 +3682,7 @@ Wire Wire Line
 Text GLabel 28200 27250 2    31   Output ~ 0
 F20.1_CLK
 $Comp
-L i7000-rescue:74LS163-Logic_74xx G26
+L Logic_74xx:74LS163 G26
 U 1 1 6763B830
 P 20250 17100
 F 0 "G26" H 20250 18078 50  0000 C CNN
@@ -3696,7 +3697,7 @@ F20.1_CLK
 Wire Wire Line
 	19450 17400 19750 17400
 $Comp
-L i7000-rescue:74LS02-Logic_74xx F20
+L Logic_74xx:74LS02 F20
 U 1 1 677C08F4
 P 27550 27250
 F 0 "F20" H 27550 27575 50  0000 C CNN
@@ -3713,7 +3714,7 @@ Text GLabel 22100 18300 0    31   Input ~ 0
 Wire Wire Line
 	22100 18300 22250 18300
 $Comp
-L i7000-rescue:R-device R83
+L device:R R83
 U 1 1 680060B4
 P 43700 29950
 F 0 "R83" V 43493 29950 50  0000 C CNN
@@ -3733,7 +3734,7 @@ Connection ~ 44150 30450
 Wire Wire Line
 	44150 30450 44300 30450
 $Comp
-L i7000-rescue:Conn_01x03-Connector JP04
+L Connector:Conn_01x03 JP04
 U 1 1 690B4D1C
 P 43100 28900
 F 0 "JP04" V 43350 28900 50  0000 C CNN
@@ -3758,7 +3759,7 @@ G30.6_CLK
 Wire Wire Line
 	27250 27150 27000 27150
 $Comp
-L i7000-rescue:Conn_01x03-Connector JP03
+L Connector:Conn_01x03 JP03
 U 1 1 6A854574
 P 41550 28900
 F 0 "JP03" V 41800 29000 50  0000 R CNN
@@ -3769,7 +3770,7 @@ F 3 "~" H 41550 28900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L i7000-rescue:Conn_01x03-Connector JP05
+L Connector:Conn_01x03 JP05
 U 1 1 6A9DA7A0
 P 38200 28450
 F 0 "JP05" H 38120 28125 50  0000 C CNN
@@ -3782,7 +3783,7 @@ $EndComp
 Text Notes 40200 30150 2    50   ~ 0
 JP01:  [1-2]-3\nJP02:  [1-2]   \nJP03:  1-[2-3]\nJP04:  1-[2-3]\nJP05:  [1-2]-3\nJP06:  1-[2-3]\nJP07:  [1-2]-3\nJP08:  1-[2-3]\nJP09:  [1-2]-3\nJP10:  [1-2]-3\nJP11:  1-[2-3]\nJP12:  1-[2-3]\nJP13:  1-[2-3]\nJP14:  1-[2-3]\nJP15:  1-[2-3]\n\nDP01:          \n1 - ON \n2 - ON \n3 - OFF\n4 - ON \n5 - ON \n6 - ON \n7 - OFF\n8 - ON 
 $Comp
-L i7000-rescue:74LS04-Logic_74xx G30
+L Logic_74xx:74LS04 G30
 U 1 1 6AAA2897
 P 42050 30450
 F 0 "G30" H 42050 30767 50  0000 C CNN
@@ -3793,7 +3794,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 42050 30450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:R-device R82
+L device:R R82
 U 1 1 6AB66791
 P 42000 29950
 F 0 "R82" V 41793 29950 50  0000 C CNN
@@ -3819,7 +3820,7 @@ Wire Wire Line
 Wire Wire Line
 	41850 29950 41650 29950
 $Comp
-L i7000-rescue:C-device C227
+L device:C C227
 U 1 1 6B012BDC
 P 42750 30450
 F 0 "C227" V 42498 30450 50  0000 C CNN
@@ -3830,7 +3831,7 @@ F 3 "" H 42750 30450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i7000-rescue:Crystal-device XTA3
+L device:Crystal XTA3
 U 1 1 6B0D9DC5
 P 42350 29100
 F 0 "XTA3" H 42350 29368 50  0000 C CNN
@@ -3841,7 +3842,7 @@ F 3 "" H 42350 29100 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:Crystal-device XTA4
+L device:Crystal XTA4
 U 1 1 6B1A09BB
 P 42350 29600
 F 0 "XTA4" H 42350 29868 50  0000 C CNN
@@ -3861,7 +3862,7 @@ Wire Wire Line
 	41450 29600 41450 29100
 Connection ~ 43350 30450
 $Comp
-L i7000-rescue:74LS04-Logic_74xx E38
+L Logic_74xx:74LS04 E38
 U 2 1 6C556B4F
 P 43550 27900
 F 0 "E38" H 43550 28217 50  0000 C CNN
@@ -3872,7 +3873,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 43550 27900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:74LS04-Logic_74xx E38
+L Logic_74xx:74LS04 E38
 U 3 1 6C556B55
 P 44550 27900
 F 0 "E38" H 44550 28217 50  0000 C CNN
@@ -3883,7 +3884,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 44550 27900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:R-device R38
+L device:R R38
 U 1 1 6C556B5B
 P 43500 27400
 F 0 "R38" V 43293 27400 50  0000 C CNN
@@ -3911,7 +3912,7 @@ E38.6_CLK
 Wire Wire Line
 	44950 27900 44850 27900
 $Comp
-L i7000-rescue:74LS04-Logic_74xx E38
+L Logic_74xx:74LS04 E38
 U 1 1 6C556B6A
 P 41950 27900
 F 0 "E38" H 41950 28217 50  0000 C CNN
@@ -3922,7 +3923,7 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 41950 27900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i7000-rescue:R-device R29
+L device:R R29
 U 1 1 6C556B70
 P 41900 27400
 F 0 "R29" V 41693 27400 50  0000 C CNN
@@ -3949,7 +3950,7 @@ Wire Wire Line
 Wire Wire Line
 	41750 27400 41550 27400
 $Comp
-L i7000-rescue:C-device C207
+L device:C C207
 U 1 1 6C556B80
 P 42750 27900
 F 0 "C207" V 42498 27900 50  0000 C CNN
@@ -3960,7 +3961,7 @@ F 3 "" H 42750 27900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i7000-rescue:Crystal-device XTA2
+L device:Crystal XTA2
 U 1 1 6C556B86
 P 42750 26950
 F 0 "XTA2" H 42750 27218 50  0000 C CNN
@@ -4018,7 +4019,7 @@ Wire Wire Line
 Wire Wire Line
 	28000 27350 28750 27350
 $Comp
-L i7000-rescue:74LS08-Logic_74xx G35
+L Logic_74xx:74LS08 G35
 U 4 1 6F911E97
 P 26700 27850
 F 0 "G35" H 26700 28175 50  0000 C CNN
@@ -4035,7 +4036,7 @@ Wire Wire Line
 Wire Wire Line
 	27150 27350 27250 27350
 $Comp
-L i7000-rescue:74LS74-Logic_74xx G27
+L Logic_74xx:74LS74 G27
 U 1 1 6F9EBB36
 P 24900 27850
 F 0 "G27" H 25050 28200 50  0000 C CNN
@@ -4226,7 +4227,7 @@ Wire Wire Line
 Wire Wire Line
 	23450 2800 23250 2800
 $Comp
-L i7000-rescue:74LS04-Logic_74xx E27
+L Logic_74xx:74LS04 E27
 U 1 1 72F4563F
 P 23750 2800
 F 0 "E27" H 23750 3117 50  0000 C CNN
@@ -4262,59 +4263,4 @@ Wire Wire Line
 Wire Wire Line
 	23300 2700 23350 2700
 Connection ~ 23300 2700
-$Comp
-L 74xx:74LS153 G21
-U 1 1 62975E0A
-P 67850 25950
-F 0 "G21" H 67850 27131 50  0000 C CNN
-F 1 "74LS153" H 67850 27040 50  0000 C CNN
-F 2 "" H 67850 25950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 67850 25950 50  0001 C CNN
-	1    67850 25950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS153 G20
-U 1 1 62984281
-P 66500 25950
-F 0 "G20" H 66500 27131 50  0000 C CNN
-F 1 "74LS153" H 66500 27040 50  0000 C CNN
-F 2 "" H 66500 25950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS153" H 66500 25950 50  0001 C CNN
-	1    66500 25950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS273 G12
-U 1 1 62D514E2
-P 62400 26100
-F 0 "G12" H 62400 27081 50  0000 C CNN
-F 1 "74LS273" H 62400 26990 50  0000 C CNN
-F 2 "" H 62400 26100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS273" H 62400 26100 50  0001 C CNN
-	1    62400 26100
-	1    0    0    -1  
-$EndComp
-$Comp
-L chips_not_yet_available_on_kicad:TMM2016AP G07
-U 1 1 62E487A7
-P 70700 26100
-F 0 "G07" H 70700 27081 50  0000 C CNN
-F 1 "TMM2016AP" H 70700 26990 50  0000 C CNN
-F 2 "" H 70700 25850 50  0001 C CNN
-F 3 "" H 70700 25850 50  0001 C CNN
-	1    70700 26100
-	1    0    0    -1  
-$EndComp
-$Comp
-L chips_not_yet_available_on_kicad:TMM2016AP G08
-U 1 1 62E49A14
-P 71650 26100
-F 0 "G08" H 71650 27081 50  0000 C CNN
-F 1 "TMM2016AP" H 71650 26990 50  0000 C CNN
-F 2 "" H 71650 25850 50  0001 C CNN
-F 3 "" H 71650 25850 50  0001 C CNN
-	1    71650 26100
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC

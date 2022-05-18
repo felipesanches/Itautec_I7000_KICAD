@@ -1,2 +1,4 @@
 (sym_lib_table
+  (lib (name i7000-rescue)(type Legacy)(uri ${KIPRJMOD}/i7000-rescue.lib)(options "")(descr ""))
+  (lib (name chips_not_yet_available_on_kicad)(type Legacy)(uri ${KIPRJMOD}/chips_not_yet_available_on_kicad.lib)(options "")(descr ""))
 )

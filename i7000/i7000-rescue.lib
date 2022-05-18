@@ -1,116 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 74xx_74LS153
+# 2732-memory
 #
-DEF 74xx_74LS153 U 0 40 Y Y 1 L N
-F0 "U" -300 850 50 H V C CNN
-F1 "74xx_74LS153" -300 -950 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- DIP?16*
-$ENDFPLIST
-DRAW
-S -300 800 300 -900 1 1 10 f
-X Ea 1 -500 200 200 R 50 50 1 0 I I
-X I0b 10 -500 0 200 R 50 50 1 0 I
-X I1b 11 -500 -100 200 R 50 50 1 0 I
-X I2b 12 -500 -200 200 R 50 50 1 0 I
-X I3b 13 -500 -300 200 R 50 50 1 0 I
-X S0 14 -500 -700 200 R 50 50 1 0 I
-X Eb 15 -500 -500 200 R 50 50 1 0 I I
-X VCC 16 0 1000 200 D 50 50 1 0 W
-X S1 2 -500 -800 200 R 50 50 1 0 I
-X I3a 3 -500 400 200 R 50 50 1 0 I
-X I2a 4 -500 500 200 R 50 50 1 0 I
-X I1a 5 -500 600 200 R 50 50 1 0 I
-X I0a 6 -500 700 200 R 50 50 1 0 I
-X Za 7 500 700 200 L 50 50 1 0 O
-X GND 8 0 -1100 200 U 50 50 1 0 W
-X Zb 9 500 0 200 L 50 50 1 0 O
-ENDDRAW
-ENDDEF
-#
-# 74xx_74LS273
-#
-DEF 74xx_74LS273 U 0 20 Y Y 1 F N
-F0 "U" -300 650 50 H V C CNN
-F1 "74xx_74LS273" -300 -650 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS 74HC273 74HCT273 74AHC273 74AHCT273
-$FPLIST
- DIP?20*
- SO?20*
- SOIC?20*
-$ENDFPLIST
-DRAW
-S -300 600 300 -600 1 1 10 f
-X ~Mr 1 -500 -500 200 R 50 50 1 0 I
-X GND 10 0 -800 200 U 50 50 1 0 W
-X Cp 11 -500 -400 200 R 50 50 1 0 I C
-X Q4 12 500 100 200 L 50 50 1 0 O
-X D4 13 -500 100 200 R 50 50 1 0 I
-X D5 14 -500 0 200 R 50 50 1 0 I
-X Q5 15 500 0 200 L 50 50 1 0 O
-X Q6 16 500 -100 200 L 50 50 1 0 O
-X D6 17 -500 -100 200 R 50 50 1 0 I
-X D7 18 -500 -200 200 R 50 50 1 0 I
-X Q7 19 500 -200 200 L 50 50 1 0 O
-X Q0 2 500 500 200 L 50 50 1 0 O
-X VCC 20 0 800 200 D 50 50 1 0 W
-X D0 3 -500 500 200 R 50 50 1 0 I
-X D1 4 -500 400 200 R 50 50 1 0 I
-X Q1 5 500 400 200 L 50 50 1 0 O
-X Q2 6 500 300 200 L 50 50 1 0 O
-X D2 7 -500 300 200 R 50 50 1 0 I
-X D3 8 -500 200 200 R 50 50 1 0 I
-X Q3 9 500 200 200 L 50 50 1 0 O
-ENDDRAW
-ENDDEF
-#
-# chips_not_yet_available_on_kicad_TMM2016AP
-#
-DEF chips_not_yet_available_on_kicad_TMM2016AP U 0 40 Y Y 1 F N
-F0 "U" 100 750 50 H V C CNN
-F1 "chips_not_yet_available_on_kicad_TMM2016AP" 0 -50 50 V V C CNN
-F2 "" 0 -250 50 H I C CNN
-F3 "" 0 -250 50 H I C CNN
-DRAW
-S -250 700 250 -950 0 1 0 f
-X A7 1 -350 300 100 R 50 50 1 1 I
-X D1 10 350 -300 100 L 50 50 1 1 B
-X D2 11 350 -200 100 L 50 50 1 1 B
-X GND 12 0 -1050 100 U 50 50 1 1 W N
-X D3 13 350 -100 100 L 50 50 1 1 B
-X D4 14 350 0 100 L 50 50 1 1 B
-X D5 15 350 100 100 L 50 50 1 1 B
-X D6 16 350 200 100 L 50 50 1 1 B
-X D7 17 350 300 100 L 50 50 1 1 B
-X ~CS 18 -350 -850 100 R 50 50 1 1 I
-X A10 19 -350 600 100 R 50 50 1 1 I
-X A6 2 -350 200 100 R 50 50 1 1 I
-X ~OE 20 -350 -750 100 R 50 50 1 1 I
-X ~WE 21 -350 -650 100 R 50 50 1 1 I
-X A9 22 -350 500 100 R 50 50 1 1 I
-X A8 23 -350 400 100 R 50 50 1 1 I
-X VCC 24 0 800 100 D 50 50 1 1 W N
-X A5 3 -350 100 100 R 50 50 1 1 I
-X A4 4 -350 0 100 R 50 50 1 1 I
-X A3 5 -350 -100 100 R 50 50 1 1 I
-X A2 6 -350 -200 100 R 50 50 1 1 I
-X A1 7 -350 -300 100 R 50 50 1 1 I
-X A0 8 -350 -400 100 R 50 50 1 1 I
-X D0 9 350 -400 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# i7000-rescue_2732-memory
-#
-DEF i7000-rescue_2732-memory U 0 10 Y Y 1 F N
+DEF 2732-memory U 0 10 Y Y 1 F N
 F0 "U" 150 -150 50 H V C CNN
-F1 "i7000-rescue_2732-memory" 150 -350 50 H V C CNN
+F1 "2732-memory" 150 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -142,11 +37,11 @@ X Q0 9 700 700 300 L 50 50 1 1 T
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS00-Logic_74xx
+# 74LS00-Logic_74xx
 #
-DEF i7000-rescue_74LS00-Logic_74xx U 0 40 Y Y 5 L N
+DEF 74LS00-Logic_74xx U 0 40 Y Y 5 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "i7000-rescue_74LS00-Logic_74xx" 0 -50 50 H V C CNN
+F1 "74LS00-Logic_74xx" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -216,11 +111,11 @@ X ~ 13 -300 -100 170 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS02-Logic_74xx
+# 74LS02-Logic_74xx
 #
-DEF i7000-rescue_74LS02-Logic_74xx U 0 40 Y Y 5 L N
+DEF 74LS02-Logic_74xx U 0 40 Y Y 5 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "i7000-rescue_74LS02-Logic_74xx" 0 -50 50 H V C CNN
+F1 "74LS02-Logic_74xx" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -290,11 +185,11 @@ X ~ 13 300 0 150 L 50 50 4 2 O
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS04-Logic_74xx
+# 74LS04-Logic_74xx
 #
-DEF i7000-rescue_74LS04-Logic_74xx U 0 40 Y Y 7 L N
+DEF 74LS04-Logic_74xx U 0 40 Y Y 7 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "i7000-rescue_74LS04-Logic_74xx" 0 -50 50 H V C CNN
+F1 "74LS04-Logic_74xx" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -325,11 +220,11 @@ X GND 7 0 -500 200 U 50 50 7 0 W
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS08-Logic_74xx
+# 74LS08-Logic_74xx
 #
-DEF i7000-rescue_74LS08-Logic_74xx U 0 40 Y Y 5 L N
+DEF 74LS08-Logic_74xx U 0 40 Y Y 5 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "i7000-rescue_74LS08-Logic_74xx" 0 -50 50 H V C CNN
+F1 "74LS08-Logic_74xx" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -398,11 +293,11 @@ X ~ 13 -300 -100 170 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS138-Logic_74xx
+# 74LS138-Logic_74xx
 #
-DEF i7000-rescue_74LS138-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS138-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 450 50 H V C CNN
-F1 "i7000-rescue_74LS138-Logic_74xx" -300 -550 50 H V C CNN
+F1 "74LS138-Logic_74xx" -300 -550 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -429,11 +324,11 @@ X O6 9 500 -300 200 L 50 50 1 0 O V
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS139-Logic_74xx
+# 74LS139-Logic_74xx
 #
-DEF i7000-rescue_74LS139-Logic_74xx U 0 40 Y Y 3 L N
+DEF 74LS139-Logic_74xx U 0 40 Y Y 3 L N
 F0 "U" -300 350 50 H V C CNN
-F1 "i7000-rescue_74LS139-Logic_74xx" -300 -350 50 H V C CNN
+F1 "74LS139-Logic_74xx" -300 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -462,11 +357,11 @@ X GND 8 0 -500 200 U 50 50 3 0 W
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS153-Logic_74xx
+# 74LS153-Logic_74xx
 #
-DEF i7000-rescue_74LS153-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS153-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 850 50 H V C CNN
-F1 "i7000-rescue_74LS153-Logic_74xx" -300 -950 50 H V C CNN
+F1 "74LS153-Logic_74xx" -300 -950 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -493,11 +388,11 @@ X Zb 9 500 0 200 L 50 50 1 0 O
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS157-Logic_74xx
+# 74LS157-Logic_74xx
 #
-DEF i7000-rescue_74LS157-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS157-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 750 50 H V C CNN
-F1 "i7000-rescue_74LS157-Logic_74xx" -300 -850 50 H V C CNN
+F1 "74LS157-Logic_74xx" -300 -850 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -524,11 +419,11 @@ X Zd 9 500 -300 200 L 50 50 1 0 O
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS163-Logic_74xx
+# 74LS163-Logic_74xx
 #
-DEF i7000-rescue_74LS163-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS163-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 650 50 H V C CNN
-F1 "i7000-rescue_74LS163-Logic_74xx" -300 -650 50 H V C CNN
+F1 "74LS163-Logic_74xx" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -555,11 +450,11 @@ X ~PE 9 -500 0 200 R 50 50 1 0 I
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS166-Logic_74xx
+# 74LS166-Logic_74xx
 #
-DEF i7000-rescue_74LS166-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS166-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 850 50 H V C CNN
-F1 "i7000-rescue_74LS166-Logic_74xx" -300 -850 50 H V C CNN
+F1 "74LS166-Logic_74xx" -300 -850 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -586,11 +481,11 @@ X Clr 9 -500 -700 200 R 50 50 1 0 I I
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS174-Logic_74xx
+# 74LS174-Logic_74xx
 #
-DEF i7000-rescue_74LS174-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS174-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 550 50 H V C CNN
-F1 "i7000-rescue_74LS174-Logic_74xx" -300 -650 50 H V C CNN
+F1 "74LS174-Logic_74xx" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -617,11 +512,11 @@ X Cp 9 -500 -300 200 R 50 50 1 0 I C
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS20-Logic_74xx
+# 74LS20-Logic_74xx
 #
-DEF i7000-rescue_74LS20-Logic_74xx U 0 40 Y Y 3 L N
+DEF 74LS20-Logic_74xx U 0 40 Y Y 3 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "i7000-rescue_74LS20-Logic_74xx" 0 -50 50 H V C CNN
+F1 "74LS20-Logic_74xx" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -670,11 +565,11 @@ X ~ 9 -300 150 150 R 50 50 2 2 I I
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS244-Logic_74xx
+# 74LS244-Logic_74xx
 #
-DEF i7000-rescue_74LS244-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS244-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 650 50 H V C CNN
-F1 "i7000-rescue_74LS244-Logic_74xx" -300 -650 50 H V C CNN
+F1 "74LS244-Logic_74xx" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -707,11 +602,11 @@ X O0b 9 500 100 200 L 50 50 1 0 T
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS245-Logic_74xx
+# 74LS245-Logic_74xx
 #
-DEF i7000-rescue_74LS245-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS245-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 650 50 H V C CNN
-F1 "i7000-rescue_74LS245-Logic_74xx" -300 -650 50 H V C CNN
+F1 "74LS245-Logic_74xx" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -744,11 +639,11 @@ X A7 9 -500 -200 200 R 50 50 1 0 T
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS257-Logic_74xx
+# 74LS257-Logic_74xx
 #
-DEF i7000-rescue_74LS257-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS257-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 750 50 H V C CNN
-F1 "i7000-rescue_74LS257-Logic_74xx" -300 -850 50 H V C CNN
+F1 "74LS257-Logic_74xx" -300 -850 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -775,11 +670,11 @@ X Zd 9 500 -300 200 L 50 50 1 0 T
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS27-Logic_74xx
+# 74LS27-Logic_74xx
 #
-DEF i7000-rescue_74LS27-Logic_74xx U 0 40 Y Y 4 L N
+DEF 74LS27-Logic_74xx U 0 40 Y Y 4 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "i7000-rescue_74LS27-Logic_74xx" 0 -50 50 H V C CNN
+F1 "74LS27-Logic_74xx" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -840,11 +735,11 @@ X ~ 9 -300 100 150 R 50 50 3 2 I I
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS273-Logic_74xx
+# 74LS273-Logic_74xx
 #
-DEF i7000-rescue_74LS273-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS273-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 650 50 H V C CNN
-F1 "i7000-rescue_74LS273-Logic_74xx" -300 -650 50 H V C CNN
+F1 "74LS273-Logic_74xx" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -875,11 +770,11 @@ X Q3 9 500 200 200 L 50 50 1 0 O
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS32-Logic_74xx
+# 74LS32-Logic_74xx
 #
-DEF i7000-rescue_74LS32-Logic_74xx U 0 40 Y Y 5 L N
+DEF 74LS32-Logic_74xx U 0 40 Y Y 5 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "i7000-rescue_74LS32-Logic_74xx" 0 -50 50 H V C CNN
+F1 "74LS32-Logic_74xx" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -948,11 +843,11 @@ X ~ 13 -300 -100 150 R 50 50 4 2 I I
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS373-Logic_74xx
+# 74LS373-Logic_74xx
 #
-DEF i7000-rescue_74LS373-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS373-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 650 50 H V C CNN
-F1 "i7000-rescue_74LS373-Logic_74xx" -300 -650 50 H V C CNN
+F1 "74LS373-Logic_74xx" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -983,11 +878,11 @@ X O3 9 500 200 200 L 50 50 1 0 T
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS374-Logic_74xx
+# 74LS374-Logic_74xx
 #
-DEF i7000-rescue_74LS374-Logic_74xx U 0 40 Y Y 1 L N
+DEF 74LS374-Logic_74xx U 0 40 Y Y 1 L N
 F0 "U" -300 650 50 H V C CNN
-F1 "i7000-rescue_74LS374-Logic_74xx" -300 -650 50 H V C CNN
+F1 "74LS374-Logic_74xx" -300 -650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1018,11 +913,11 @@ X O3 9 500 200 200 L 50 50 1 0 T
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS74-Logic_74xx
+# 74LS74-Logic_74xx
 #
-DEF i7000-rescue_74LS74-Logic_74xx U 0 40 Y Y 3 L N
+DEF 74LS74-Logic_74xx U 0 40 Y Y 3 L N
 F0 "U" -300 350 50 H V C CNN
-F1 "i7000-rescue_74LS74-Logic_74xx" -300 -350 50 H V C CNN
+F1 "74LS74-Logic_74xx" -300 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1049,11 +944,11 @@ X GND 7 0 -400 100 U 50 50 3 0 W
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_74LS86-Logic_74xx
+# 74LS86-Logic_74xx
 #
-DEF i7000-rescue_74LS86-Logic_74xx U 0 40 Y Y 5 L N
+DEF 74LS86-Logic_74xx U 0 40 Y Y 5 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "i7000-rescue_74LS86-Logic_74xx" 0 -50 50 H V C CNN
+F1 "74LS86-Logic_74xx" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1114,11 +1009,11 @@ X GND 7 0 -500 200 U 50 50 5 0 W
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_8202A-chips_not_yet_available_on_kicad
+# 8202A-chips_not_yet_available_on_kicad
 #
-DEF i7000-rescue_8202A-chips_not_yet_available_on_kicad U 0 40 Y Y 1 F N
+DEF 8202A-chips_not_yet_available_on_kicad U 0 40 Y Y 1 F N
 F0 "U" -350 1400 31 H V C CNN
-F1 "i7000-rescue_8202A-chips_not_yet_available_on_kicad" -350 1350 31 H V C CNN
+F1 "8202A-chips_not_yet_available_on_kicad" -350 1350 31 H V C CNN
 F2 "" -100 0 31 H I C CNN
 F3 "" -100 0 31 H I C CNN
 DRAW
@@ -1166,11 +1061,11 @@ X ~OUT1 9 650 -1200 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_8253-intel
+# 8253-intel
 #
-DEF i7000-rescue_8253-intel U 0 40 Y Y 1 F N
+DEF 8253-intel U 0 40 Y Y 1 F N
 F0 "U" -450 900 50 H V L CNN
-F1 "i7000-rescue_8253-intel" 100 900 50 H V L CNN
+F1 "8253-intel" 100 900 50 H V L CNN
 F2 "Housings_DIP:DIP-24_W15.24mm" 50 250 50 H I C CNN
 F3 "" -450 900 50 H I C CNN
 $FPLIST
@@ -1206,11 +1101,11 @@ X CLK0 9 600 600 150 L 50 50 1 1 I C
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_8255A-intel
+# 8255A-intel
 #
-DEF i7000-rescue_8255A-intel U 0 40 Y Y 1 F N
+DEF 8255A-intel U 0 40 Y Y 1 F N
 F0 "U" -550 1500 50 H V L CNN
-F1 "i7000-rescue_8255A-intel" 350 1500 50 H V L CNN
+F1 "8255A-intel" 350 1500 50 H V L CNN
 F2 "Housings_DIP:DIP-40_W15.24mm" 0 300 50 H I C CNN
 F3 "" 0 300 50 H I C CNN
 $FPLIST
@@ -1262,11 +1157,11 @@ X A0 9 -700 500 150 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_8259A-intel
+# 8259A-intel
 #
-DEF i7000-rescue_8259A-intel U 0 40 Y Y 1 F N
+DEF 8259A-intel U 0 40 Y Y 1 F N
 F0 "U" -400 1000 50 H V C CNN
-F1 "i7000-rescue_8259A-intel" 350 1000 50 H V C CNN
+F1 "8259A-intel" 350 1000 50 H V C CNN
 F2 "DIP-28" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1306,11 +1201,11 @@ X D2 9 -600 600 150 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_C-device
+# C-device
 #
-DEF i7000-rescue_C-device C 0 10 N Y 1 F N
+DEF C-device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "i7000-rescue_C-device" 25 -100 50 H V L CNN
+F1 "C-device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1324,11 +1219,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_Conn_01x03-Connector
+# Conn_01x03-Connector
 #
-DEF i7000-rescue_Conn_01x03-Connector J 0 40 Y N 1 F N
+DEF Conn_01x03-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "i7000-rescue_Conn_01x03-Connector" 0 -200 50 H V C CNN
+F1 "Conn_01x03-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1350,11 +1245,11 @@ X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_Conn_02x07_Counter_Clockwise-Connector
+# Conn_02x07_Counter_Clockwise-Connector
 #
-DEF i7000-rescue_Conn_02x07_Counter_Clockwise-Connector J 0 40 Y N 1 F N
+DEF Conn_02x07_Counter_Clockwise-Connector J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "i7000-rescue_Conn_02x07_Counter_Clockwise-Connector" 50 -400 50 H V C CNN
+F1 "Conn_02x07_Counter_Clockwise-Connector" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1394,11 +1289,11 @@ X Pin_9 9 300 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_Conn_02x08_Counter_Clockwise-Connector
+# Conn_02x08_Counter_Clockwise-Connector
 #
-DEF i7000-rescue_Conn_02x08_Counter_Clockwise-Connector J 0 40 Y N 1 F N
+DEF Conn_02x08_Counter_Clockwise-Connector J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "i7000-rescue_Conn_02x08_Counter_Clockwise-Connector" 50 -500 50 H V C CNN
+F1 "Conn_02x08_Counter_Clockwise-Connector" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1442,11 +1337,11 @@ X Pin_9 9 300 -400 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_Conn_02x30_Counter_Clockwise-Connector
+# Conn_02x30_Counter_Clockwise-Connector
 #
-DEF i7000-rescue_Conn_02x30_Counter_Clockwise-Connector J 0 40 Y N 1 F N
+DEF Conn_02x30_Counter_Clockwise-Connector J 0 40 Y N 1 F N
 F0 "J" 50 1500 50 H V C CNN
-F1 "i7000-rescue_Conn_02x30_Counter_Clockwise-Connector" 50 -1600 50 H V C CNN
+F1 "Conn_02x30_Counter_Clockwise-Connector" 50 -1600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1578,11 +1473,11 @@ X Pin_9 9 -200 600 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_Crystal-device
+# Crystal-device
 #
-DEF i7000-rescue_Crystal-device Y 0 40 N N 1 F N
+DEF Crystal-device Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "i7000-rescue_Crystal-device" 0 -150 50 H V C CNN
+F1 "Crystal-device" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1599,11 +1494,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_M5L8279P-5-chips_not_yet_available_on_kicad
+# M5L8279P-5-chips_not_yet_available_on_kicad
 #
-DEF i7000-rescue_M5L8279P-5-chips_not_yet_available_on_kicad U 0 40 Y Y 1 F N
+DEF M5L8279P-5-chips_not_yet_available_on_kicad U 0 40 Y Y 1 F N
 F0 "U" 350 1450 31 H V C CNN
-F1 "i7000-rescue_M5L8279P-5-chips_not_yet_available_on_kicad" 200 1450 31 H V C CNN
+F1 "M5L8279P-5-chips_not_yet_available_on_kicad" 200 1450 31 H V C CNN
 F2 "" 300 1400 31 H I C CNN
 F3 "" 300 1400 31 H I C CNN
 DRAW
@@ -1656,11 +1551,11 @@ X RESET 9 -600 1150 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_MC6845-motorola
+# MC6845-motorola
 #
-DEF i7000-rescue_MC6845-motorola U 0 40 Y Y 1 F N
+DEF MC6845-motorola U 0 40 Y Y 1 F N
 F0 "U" -400 1350 50 H V R CNN
-F1 "i7000-rescue_MC6845-motorola" 500 1350 50 H V R CNN
+F1 "MC6845-motorola" 500 1350 50 H V R CNN
 F2 "" 50 -1350 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1711,11 +1606,11 @@ X MA5 9 600 700 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_MCM6665A-chips_not_yet_available_on_kicad
+# MCM6665A-chips_not_yet_available_on_kicad
 #
-DEF i7000-rescue_MCM6665A-chips_not_yet_available_on_kicad U 0 40 Y Y 1 F N
+DEF MCM6665A-chips_not_yet_available_on_kicad U 0 40 Y Y 1 F N
 F0 "U" -250 500 31 H V C CNN
-F1 "i7000-rescue_MCM6665A-chips_not_yet_available_on_kicad" 150 500 31 H V C CNN
+F1 "MCM6665A-chips_not_yet_available_on_kicad" 150 500 31 H V C CNN
 F2 "" 50 0 31 H I C CNN
 F3 "" 50 0 31 H I C CNN
 DRAW
@@ -1740,11 +1635,11 @@ X A7 9 -500 -350 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_NSC800-chips_not_yet_available_on_kicad
+# NSC800-chips_not_yet_available_on_kicad
 #
-DEF i7000-rescue_NSC800-chips_not_yet_available_on_kicad U 0 40 Y Y 1 F N
+DEF NSC800-chips_not_yet_available_on_kicad U 0 40 Y Y 1 F N
 F0 "U" 250 750 31 H V C CNN
-F1 "i7000-rescue_NSC800-chips_not_yet_available_on_kicad" 300 700 31 H V C CNN
+F1 "NSC800-chips_not_yet_available_on_kicad" 300 700 31 H V C CNN
 F2 "" -250 600 31 H I C CNN
 F3 "" -250 600 31 H I C CNN
 DRAW
@@ -1792,11 +1687,11 @@ X CLK 9 600 300 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_R-device
+# R-device
 #
-DEF i7000-rescue_R-device R 0 0 N Y 1 F N
+DEF R-device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "i7000-rescue_R-device" 0 0 50 V V C CNN
+F1 "R-device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1810,11 +1705,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# i7000-rescue_TMP8251AP-chips_not_yet_available_on_kicad
+# TMP8251AP-chips_not_yet_available_on_kicad
 #
-DEF i7000-rescue_TMP8251AP-chips_not_yet_available_on_kicad U 0 40 Y Y 1 F N
+DEF TMP8251AP-chips_not_yet_available_on_kicad U 0 40 Y Y 1 F N
 F0 "U" 200 950 31 H V C CNN
-F1 "i7000-rescue_TMP8251AP-chips_not_yet_available_on_kicad" 300 900 31 H V C CNN
+F1 "TMP8251AP-chips_not_yet_available_on_kicad" 300 900 31 H V C CNN
 F2 "" 250 850 31 H I C CNN
 F3 "" 250 850 31 H I C CNN
 DRAW
@@ -1853,34 +1748,6 @@ X D5 6 -550 -600 200 R 50 50 1 1 I
 X D6 7 -550 -700 200 R 50 50 1 1 I
 X D7 8 -550 -800 200 R 50 50 1 1 I
 X ~TxC 9 650 450 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VCC
-#
-DEF power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
