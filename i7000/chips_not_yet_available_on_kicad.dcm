@@ -9,6 +9,11 @@ $CMP 8279
 D PROGRAMMABLE KEYBOARD/DISPLAY INTERFACE
 $ENDCMP
 #
+$CMP ADC0808
+D 8-Bit μP Compatible A/D Converters with 8-Channel Multiplexer
+F http://www.ti.com/lit/ds/snas562/snas562.pdf
+$ENDCMP
+#
 $CMP AM26LS31PC
 D Quad High Speed Differential Line Driver
 $ENDCMP
