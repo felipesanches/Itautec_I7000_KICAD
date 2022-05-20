@@ -22,6 +22,14 @@ $CMP AM26LS32PC
 D AM26LS32PC - Quad Differential Line Receivers
 $ENDCMP
 #
+$CMP MC1488
+D Quad Line EIA-232D Driver
+$ENDCMP
+#
+$CMP MC1489
+D Quad Line EIA-232D Receivers
+$ENDCMP
+#
 $CMP MCM6665A
 D 64k x 1bit Dynamic RAM
 $ENDCMP
